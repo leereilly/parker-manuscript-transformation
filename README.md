@@ -18,6 +18,7 @@ __NB:__ The script is set to transform the files in test_data by default.
 * [rubygems 1.3.5 ](http://rubygems.org "rubygems 1.3.5 )
 * [rdf 0.3.1](https://github.com/bendiken/rdf "rdf 0.3.1")
 * [rdf::n3 0.3.1.1](https://github.com/gkellogg/rdf-n3 "rdf::n3 0.3.1.1")
+* [nokogiri 1.4.4](http://nokogiri.org "nokogiri 1.4.4")
 
 ## Known Issues / Bugs
 * RDF::List support is "experimental"
