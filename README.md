@@ -14,10 +14,10 @@ __NB:__ The script is set to transform the files in test_data by default.
 
 ## Dependencies
 
-* [ruby 1.8.7](http://example.com/ "ruby 1.8.7")
-* [rubygems 1.3.5 ](http://example.com/ "rubygems 1.3.5 )
-* [rdf 0.3.1](http://example.com/ "rdf 0.3.1")
-* [rdf::n3 0.3.1.1](http://example.com/ "rdf::n3 0.3.1.1")
+* [ruby 1.8.7](http://www.ruby-lang.org "ruby 1.8.7")
+* [rubygems 1.3.5 ](http://rubygems.org "rubygems 1.3.5 )
+* [rdf 0.3.1](https://github.com/bendiken/rdf "rdf 0.3.1")
+* [rdf::n3 0.3.1.1](https://github.com/gkellogg/rdf-n3 "rdf::n3 0.3.1.1")
 
 ## Known Issues / Bugs
 * RDF::List support is "experimental"
@@ -25,6 +25,6 @@ __NB:__ The script is set to transform the files in test_data by default.
 * Transformation fails for pages that are spreads
 * The DMS data model is ever-evolving
 
-![Bugs](http://www.animalshelter.org.uk/images/bug_animated.gif "Bugs")
+![Bugs](http://i.imgur.com/K8vsw.gif "Bugs")
 
 
