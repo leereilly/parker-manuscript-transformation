@@ -12,16 +12,18 @@ To transform the XML files in data/input/xml to N3 in data/output/n3 simply run 
 
 __NB:__ The script is set to transform the files in test_data by default. 
 
-## Known Issues
-* RDF::List support is "experimental"
-* Transformation fails for pages that have folds, flaps or bookmarks
-* Transformation fails for pages that are spreads
-* The DMS data model is ever-evolving
-
 ## Dependencies
 
 * [ruby 1.8.7](http://example.com/ "ruby 1.8.7")
 * [rubygems 1.3.5 ](http://example.com/ "rubygems 1.3.5 )
 * [rdf 0.3.1](http://example.com/ "rdf 0.3.1")
 * [rdf::n3 0.3.1.1](http://example.com/ "rdf::n3 0.3.1.1")
+
+## Known Issues
+* RDF::List support is "experimental"
+* Transformation fails for pages that have folds, flaps or bookmarks
+* Transformation fails for pages that are spreads
+* The DMS data model is ever-evolving
+![Bugs](http://thmg.photobucket.com/albums/v390/aussach/Funny%20Pictures/th_bug_animated.gif "Bugs")
+
 
