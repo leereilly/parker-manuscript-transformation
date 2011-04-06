@@ -24,6 +24,7 @@ __NB:__ The script is set to transform the files in test_data by default.
 * Transformation fails for pages that have folds, flaps or bookmarks
 * Transformation fails for pages that are spreads
 * The DMS data model is ever-evolving
-![Bugs](http://thmg.photobucket.com/albums/v390/aussach/Funny%20Pictures/th_bug_animated.gif "Bugs")
+
+![Bugs](http://www.animalshelter.org.uk/images/bug_animated.gif "Bugs")
 
 
