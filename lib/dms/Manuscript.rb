@@ -8,9 +8,36 @@ module DMS
     def initialize(name = nil, ordered_pages = [], original_filename = nil)
       @name, @ordered_pages, @original_filename = name, ordered_pages, original_filename
     end
+    
+    def create_from_file(filename)
+      
+    end
 
     def add_page(page)
       @ordered_pages << page
+    end
+    
+    def has_flap?
+      check_ordered_page_values_for_string("FLP")
+    end
+    
+    def has_fold?
+      check_ordered_page_values_for_string("FLD")
+    end
+    
+    def has_bookmark?
+      check_ordered_page_values_for_string("BKMK")
+    end
+    
+    def has_spread?
+      check_ordered_page_values_for_string("SPRD")
+    end
+    
+    def check_ordered_page_values_for_string(search_string)
+      @ordered_pages.each do |page|
+        return true if page.label.include? search_string
+      end
+      return false
     end
 
     def to_json
