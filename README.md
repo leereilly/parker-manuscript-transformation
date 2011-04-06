@@ -19,7 +19,7 @@ __NB:__ The script is set to transform the files in test_data by default.
 * [rdf 0.3.1](http://example.com/ "rdf 0.3.1")
 * [rdf::n3 0.3.1.1](http://example.com/ "rdf::n3 0.3.1.1")
 
-## Known Issues
+## Known Issues / Bugs
 * RDF::List support is "experimental"
 * Transformation fails for pages that have folds, flaps or bookmarks
 * Transformation fails for pages that are spreads
