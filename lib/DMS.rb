@@ -3,14 +3,14 @@ require 'rubygems'
 require 'rdf'
 require 'rdf/n3'
 
-require 'DMS/Manuscript'
-require 'DMS/Page'
-require 'DMS/Image'
+require 'dms/Manuscript'
+require 'dms/Page'
+require 'dms/Image'
 
-require 'DMS/transformations/Manifest'
-require 'DMS/transformations/Prefix'
-require 'DMS/transformations/NormalSequence'
-require 'DMS/transformations/ImageCollection'
+require 'dms/transformation/Manifest'
+require 'dms/transformation/Prefix'
+require 'dms/transformation/NormalSequence'
+require 'dms/transformation/ImageCollection'
 
 module DMS
   VERSION = "0.0.1"
@@ -19,5 +19,5 @@ module DMS
     attr_accessor :debug
   end
 
-  self.debug = false
+  self.debug = true
 end
