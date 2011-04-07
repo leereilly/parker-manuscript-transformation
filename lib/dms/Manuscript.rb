@@ -5,12 +5,12 @@ module DMS
     DEFAULT_VIEW_MODE = 2
     LEVELS = 6
 
-    def initialize(name = nil, ordered_pages = [], original_filename = nil)
-      @name, @ordered_pages, @original_filename = name, ordered_pages, original_filename
-    end
-    
-    def initialize_from_file(filename)
+    def initialize(filename)
+      @original_filename = filename
+      @ordered_pages = Array.new
+      
       puts "Processing #{filename}" if DMS::debug
+      
       xml_file = File.open(filename)
       doc = Nokogiri::XML(xml_file)
       doc.xpath("//collection").each do |collection|
@@ -21,16 +21,16 @@ module DMS
         new_page = DMS::Page.new
         new_page.number = page.get_attribute('number')
         new_page.label = page.get_attribute('label')
-        new_page_type = page.get_attribute('type')
+        new_page.type = page.get_attribute('type')
         page.xpath("image").each do |image|
           new_image = DMS::Image.new
           new_image.path = image.get_attribute('jp2Path')
           new_image.type = image.get_attribute('type')
           new_image.width = image.get_attribute('width')
           new_image.height = image.get_attribute('height')
-          self.add_image(new_image)
+          new_page.add_image(new_image)
         end
-        manuscript.add_page(new_page)
+        @ordered_pages << new_page
       end
 
     end
