@@ -9,9 +9,22 @@ module DMS
         self.serialize
       end
       
+      # KLUDGE: This CANNOT appear at the end... ';' vs. '.' issue.
+      # rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
+      # rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/bob> );
+      def generate_first_and_rest_manually
+        output = "    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{@manuscript.ordered_pages[0].number}>;\n"
+        output << "    rdf:rest ( " 
+        @manuscript.ordered_pages.each do |page|
+          output << "<http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}> "
+        end
+        output << ") ."
+      end
+      
       def serialize()
-        puts "Serializing to N3 @ #{@filename}" if DMS::debug
+        rest_statements = Array.new
         RDF::Writer.open("#{@filename}") do |writer|
+          sequence_subject = RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')
           iteration_count = 0
           
           # NAMESPACE PREFIXES
@@ -61,7 +74,6 @@ module DMS
             #         <http://dmss.stanford.edu/dmstech/CCC001/ivV>;
             #     rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
             #     rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/iR>
-            sequence_subject = RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')
 
             writer << RDF::Statement.new({
               :subject   => sequence_subject,
@@ -86,7 +98,7 @@ module DMS
               :predicate => RDF::Resource("#{writer.prefixes[:ore]}aggregates"),
               :object    => RDF::Resource(canvas_subject)
             })
-            
+
             if iteration_count == 1
               writer << RDF::Statement.new({
                 :subject   => sequence_subject,
@@ -99,8 +111,13 @@ module DMS
                 :predicate => RDF::Resource("#{writer.prefixes[:RDF]}rest"),
                 :object    => RDF::Resource(canvas_subject)
               })
+              rest_statements << RDF::Statement.new({
+                :subject   => sequence_subject,
+                :predicate => RDF::Resource("#{writer.prefixes[:RDF]}rest"),
+                :object    => RDF::Resource(canvas_subject)
+              })
             end
-          end        
+          end  
         end
       end      
     end
