@@ -13,19 +13,19 @@ module DMS
       # rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
       # rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/bob> );
       def generate_first_and_rest_manually
-        output = "    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{@manuscript.ordered_pages[0].number}>;\n"
+        ordered_pages = @manuscript.ordered_pages
+        output = "#{RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')}    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{ordered_pages[0].number}>;\n"
+        ordered_pages.shift
         output << "    rdf:rest ( " 
-        @manuscript.ordered_pages.each do |page|
+        ordered_pages.each do |page|
           output << "<http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}> "
         end
-        output << ") ."
+        output << ") ;\n"
       end
       
       def serialize()
-        rest_statements = Array.new
         RDF::Writer.open("#{@filename}") do |writer|
           sequence_subject = RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')
-          iteration_count = 0
           
           # NAMESPACE PREFIXES
           writer.prefixes = {
@@ -38,7 +38,6 @@ module DMS
           
           # CANVASES
           @manuscript.ordered_pages.each do |page|
-            iteration_count = iteration_count + 1
             canvas_subject = RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}")
             
             writer << RDF::Statement.new({
@@ -65,16 +64,6 @@ module DMS
               :object    => page.label
             })
 
-            # SEQUENCE
-            # <http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence> a dms:Sequence,
-            #         ore:Aggregation,
-            #         rdf:List;
-            #     ore:aggregates <http://dmss.stanford.edu/dmstech/CCC001/100R>,
-            #         <http://dmss.stanford.edu/dmstech/CCC001/100V>,
-            #         <http://dmss.stanford.edu/dmstech/CCC001/ivV>;
-            #     rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
-            #     rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/iR>
-
             writer << RDF::Statement.new({
               :subject   => sequence_subject,
               :predicate => RDF::Resource("#{writer.prefixes[:rdf]}type"),
@@ -98,28 +87,31 @@ module DMS
               :predicate => RDF::Resource("#{writer.prefixes[:ore]}aggregates"),
               :object    => RDF::Resource(canvas_subject)
             })
-
-            if iteration_count == 1
-              writer << RDF::Statement.new({
-                :subject   => sequence_subject,
-                :predicate => RDF::Resource("#{writer.prefixes[:RDF]}first"),
-                :object    => RDF::Resource(canvas_subject)
-                })
-            else 
-              writer << RDF::Statement.new({
-                :subject   => sequence_subject,
-                :predicate => RDF::Resource("#{writer.prefixes[:RDF]}rest"),
-                :object    => RDF::Resource(canvas_subject)
-              })
-              rest_statements << RDF::Statement.new({
-                :subject   => sequence_subject,
-                :predicate => RDF::Resource("#{writer.prefixes[:RDF]}rest"),
-                :object    => RDF::Resource(canvas_subject)
-              })
-            end
+            
+            # KLUDGE: List support in Ruby's RDF is experimental according to the author.
+            writer << RDF::Statement.new({
+              :subject   => sequence_subject,
+              :predicate => RDF::Resource('http://replace.me/now#please'),
+              :object    => RDF::Resource('_a_seemingly_randomly_string_here_')
+            })
           end  
         end
-      end      
+        
+       # KLUDGE - String replace to generate first/rest
+       new_file_contents = ''
+       replacement_string = '<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence> <http://replace.me/now#please> <_a_seemingly_randomly_string_here_>;\n'
+       
+       File.open(@filename, "r") do |infile|
+         while (line = infile.gets)
+           if line.include? 'http://replace.me/now#please'
+             new_file_contents << generate_first_and_rest_manually
+           else
+             new_file_contents << line
+           end
+         end
+       end
+       File.open(@filename, 'w') {|f| f.write(new_file_contents) }
+      end    
     end
   end
 end
