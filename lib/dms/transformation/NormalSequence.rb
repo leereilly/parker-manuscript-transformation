@@ -16,7 +16,7 @@ module DMS
         ordered_pages = @manuscript.ordered_pages
         output = "#{RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')}    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{ordered_pages[0].number}>;\n"
         ordered_pages.shift
-        output << "    rdf:rest ( " 
+        output << "   rdf:rest ( " 
         ordered_pages.each do |page|
           output << "<http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}> "
         end
