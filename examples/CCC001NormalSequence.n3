@@ -1,0 +1,33 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence> a dms:Sequence,
+        ore:Aggregation,
+        rdf:List;
+    ore:aggregates <http://dmss.stanford.edu/dmstech/CCC001/100R>,
+        <http://dmss.stanford.edu/dmstech/CCC001/100V>,
+        <http://dmss.stanford.edu/dmstech/CCC001/101R>,
+		.
+		.
+		.
+		.
+        <http://dmss.stanford.edu/dmstech/CCC001/ivV>;
+    rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
+    rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/iR> <http://dmss.stanford.edu/dmstech/CCC001/iV> <http://dmss.stanford.edu/dmstech/CCC001/iiR> .... <http://dmss.stanford.edu/dmstech/CCC001/bob> ) .
+
+<http://dmss.stanford.edu/dmstech/CCC001/100R> a dms:Canvas;
+    dc:title "CCC001 f. 100 r";
+    exif:height 9472;
+    exif:width 6308 .
+.
+.
+.
+.
+<http://dmss.stanford.edu/dmstech/CCC001/ivV> a dms:Canvas;
+    dc:title "CCC001 f. iv v";
+    exif:height 9656;
+    exif:width 6489 .
+
