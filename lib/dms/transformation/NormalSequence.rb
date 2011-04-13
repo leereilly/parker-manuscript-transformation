@@ -14,7 +14,7 @@ module DMS
       # rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/bob> );
       def generate_first_and_rest_manually
         ordered_pages = @manuscript.ordered_pages
-        output = "#{RDF::URI('http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence')}    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{ordered_pages[0].number}>;\n"
+        output = "#{RDF::URI('<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>')}    rdf:first <http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{ordered_pages[0].number}>;\n"
         ordered_pages.shift
         output << "   rdf:rest ( " 
         ordered_pages.each do |page|
