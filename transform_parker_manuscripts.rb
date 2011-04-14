@@ -34,7 +34,8 @@ parker_manuscripts.each do |manuscript|
   # \_|  |_/\__,_|_| |_|_|_| \___||___/\__|
 
   puts "  Generating Manifest file"
-  manifest = DMS::Transformation::Manifest.new(manuscript)
+  manifest_file = "#{OUTPUT_DIRECTORY}/Manifest#{manuscript.name}.n3"
+  manifest = DMS::Transformation::Manifest.new(manuscript, manifest_file)
 
   #  _   _                            _ _____                                      
   # | \ | |                          | /  ___|                                     
@@ -59,5 +60,6 @@ parker_manuscripts.each do |manuscript|
   #                       |___/  
   
   puts "  Generating ImageCollection file"
-  image_collection = DMS::Transformation::ImageCollection.new(manuscript)
+  image_collection_file = "#{OUTPUT_DIRECTORY}/ImageCollection#{manuscript.name}.n3"
+  image_collection = DMS::Transformation::ImageCollection.new(manuscript, image_collection_file)
 end

@@ -21,5 +21,10 @@ module DMS
         return image if image.type == 'TC'
       end
     end
+    
+    # Pages labeled 'coverblank' should be skipped in transformation
+    def is_skippable?
+      return true if @label.include? 'coverblank'
+    end
   end
 end

@@ -1,0 +1,17 @@
+@prefix dms:  <http://dms.stanford.edu/ns/> .
+@prefix ecod: <http://dms.textandbytes.com/m3/> .
+@prefix ore:  <http://www.openarchives.org/ore/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ecod:Manifest a ore:Aggreation;
+    ore:aggregates ecod:ImageCollection,
+        ecod:NormalSequence .
+
+ecod:ImageCollection a dms:ImageCollection,
+        ore:Aggregation,
+        rdf:List .
+
+ecod:NormalSequence a dms:Sequence,
+        ore:Aggregation,
+        rdf:List .
+

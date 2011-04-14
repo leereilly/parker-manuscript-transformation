@@ -11,6 +11,7 @@ require 'dms/Manuscript'
 require 'dms/Page'
 require 'dms/Image'
 
+require 'dms/transformation/Base'
 require 'dms/transformation/Manifest'
 require 'dms/transformation/Prefix'
 require 'dms/transformation/NormalSequence'

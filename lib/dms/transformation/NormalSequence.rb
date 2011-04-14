@@ -1,14 +1,6 @@
 module DMS
   module Transformation
-    class NormalSequence
-      attr_accessor :manuscript, :filename
-
-      def initialize(manuscript = nil, filename = nil)
-        @manuscript = manuscript
-        @filename = filename
-        self.serialize
-      end
-      
+    class NormalSequence < DMS::Transformation::Base      
       # KLUDGE: This CANNOT appear at the end... ';' vs. '.' issue.
       # rdf:first <http://dmss.stanford.edu/dmstech/CCC001/fob>;
       # rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC001/fib> <http://dmss.stanford.edu/dmstech/CCC001/bob> );
