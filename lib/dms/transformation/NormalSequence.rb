@@ -53,7 +53,7 @@ module DMS
             writer << RDF::Statement.new({
               :subject   => canvas_subject,
               :predicate => RDF::Resource("#{writer.prefixes[:dc]}title"),
-              :object    => page.label
+              :object    => "CCC#{@manuscript.name} #{page.label}"
             })
 
             writer << RDF::Statement.new({
@@ -91,7 +91,7 @@ module DMS
         
        # KLUDGE - String replace to generate first/rest
        new_file_contents = ''
-       replacement_string = '<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence> <http://replace.me/now#please> <_a_seemingly_randomly_string_here_>;\n'
+       replacement_string = "<http://dmstech.groups.stanford.edu/ccc#{@manuscript.name}/manifest/NormalSequence> <http://replace.me/now#please> <_a_seemingly_randomly_string_here_>;\n"
        
        File.open(@filename, "r") do |infile|
          while (line = infile.gets)

@@ -1,8 +1,18 @@
 module DMS
   module Transformation
     class ImageCollection < DMS::Transformation::Base   
-      
-      # http://dmstech.groups.stanford.edu/CCC001/images/000100
+    
+      def generate_first_and_rest_manually(highest_sequence_number)
+        output = "<http://dmstech.groups.stanford.edu/CCC#{@manuscript.name}/ImageCollection> rdf:first <http://dmstech.groups.stanford.edu/CCC#{@manuscript.name}/images/1>;\n"
+        output << "   rdf:rest ( " 
+        
+        (2..highest_sequence_number).each do |i|
+          output << "<http://dmss.groups.stanford.edu/CCC#{manuscript.name}/images/#{i}> "
+        end
+        
+        output << ") ;\n"
+      end
+          
       def get_image_collection_name(page)
         name = "http://dmstech.groups.stanford.edu/CCC#{manuscript.name}/images/"
         image_path = page.get_no_crop_image.path
@@ -19,13 +29,8 @@ module DMS
       end
       
       def serialize
-        # prefix dc: <http://purl.org/dc/elements/1.1/> .
-        # @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
-        # @prefix dms: <http://dms.stanford.edu/ns/> .
-        # @prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
-        # @prefix oac: <http://www.openannotation.org/ns/> .
-        # @prefix ore: <http://www.openarchives.org/ore/terms/> .
-        # @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+        image_sequence_number = 0
+        
         RDF::Writer.open("#{@filename}") do |writer|
 
            # NAMESPACE PREFIXES
@@ -58,9 +63,14 @@ module DMS
                :predicate => RDF::URI('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), 
                :object    => RDF::Resource("#{writer.prefixes[:rdf]}List")
              })
-            
-            image_sequence_number = 0
-            
+             
+             # KLUDGE: List support in Ruby's RDF is experimental according to the author.
+             writer << RDF::Statement.new({
+               :subject   => image_collection_subject,
+               :predicate => RDF::Resource('http://replace.me/now#please'),
+               :object    => RDF::Resource('_a_seemingly_randomly_string_here_')
+             })
+                        
             @manuscript.ordered_pages.each do |page|
               next if page.is_skippable?
               
@@ -73,8 +83,56 @@ module DMS
                  :object    => image_sequence_uri
                })
                
-               #TODO: RDF first/rest
+              # NC IMAGES
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_no_crop_image.path),
+                :predicate => RDF::URI('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), 
+                :object    => RDF::Resource("#{writer.prefixes[:dcmitype]}Image")
+              })    
               
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_no_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:dms]}imagetype"),
+                :object    => 'NC'
+              })
+              
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_no_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:exif]}width"),
+                :object    => page.get_no_crop_image.width
+              })
+              
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_no_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:exif]}height"),
+                :object    => page.get_no_crop_image.height
+              })
+                  
+              # TC IMAGES
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_tight_crop_image.path),
+                :predicate => RDF::URI('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), 
+                :object    => RDF::Resource("#{writer.prefixes[:dcmitype]}Image")
+              })    
+              
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_tight_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:dms]}imagetype"),
+                :object    => 'TC'
+              })
+              
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_tight_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:exif]}width"),
+                :object    => page.get_tight_crop_image.width
+              })
+              
+              writer << RDF::Statement.new({
+                :subject   => RDF::URI(page.get_tight_crop_image.path),
+                :predicate => RDF::Resource("#{writer.prefixes[:exif]}height"),
+                :object    => page.get_tight_crop_image.height
+              })  
+                  
               # CANVASES
               canvas_subject = RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}")
                
@@ -102,23 +160,21 @@ module DMS
                 :object    => page.label
               })
                  
-              # IMAGE CHOCE
+              # IMAGE CHOICE
               writer << RDF::Statement.new({
-                :subject   => "#{canvas_subject}.imageChoice",
+                :subject   => RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}.imageChoice"),
                 :predicate => RDF::Resource("#{writer.prefixes[:dms]}ImageChoice"),
                 :object    => page.get_no_crop_image.path
               })  
               
               writer << RDF::Statement.new({
-                :subject   => "#{canvas_subject}.imageChoice",
+                :subject   => RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}.imageChoice"),
                 :predicate => RDF::Resource("#{writer.prefixes[:dms]}ImageChoice"),
                 :object    => page.get_tight_crop_image.path
               })
               
-              # IMAGE ANNOTATION
-              # <http://dmstech.groups.stanford.edu/CCC001/images/000572> a dms:ImageAnnotation;
-              #     oac:hasBody <http://dmss.stanford.edu/dmstech/CCC001/283V.imagechoice>;
-              #     oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC001/283V> .
+              # IMAGE ANNOTATIONS
+              
               writer << RDF::Statement.new({ # <http://dmstech.groups.stanford.edu/CCC001/images/000572> a dms:ImageAnnotation>
                 :subject   => image_sequence_uri,
                 :predicate => RDF::URI('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), 
@@ -128,16 +184,27 @@ module DMS
               writer << RDF::Statement.new({ # <http://dmstech.groups.stanford.edu/CCC001/images/000572> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC001/283V.imagechoice>
                 :subject   => image_sequence_uri,
                 :predicate => RDF::Resource("#{writer.prefixes[:oac]}hasBody"), 
-                :object    => ''
+                :object    => RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}.imageChoice")
               })
               
               writer << RDF::Statement.new({ # <http://dmstech.groups.stanford.edu/CCC001/images/000572> oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC001/283V>
                 :subject   => image_sequence_uri,
                 :predicate => RDF::Resource("#{writer.prefixes[:oac]}hasTarget"), 
-                :object    => ''
+                :object    => RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}")
               })
             end 
           end
+          new_file_contents = ''
+          File.open(@filename, "r") do |infile|
+            while (line = infile.gets)
+              if line.include? 'http://replace.me/now#please'
+                new_file_contents << generate_first_and_rest_manually(image_sequence_number)
+              else
+                new_file_contents << line
+              end
+            end
+          end
+          File.open(@filename, 'w') {|f| f.write(new_file_contents) }
         end
       end
     end

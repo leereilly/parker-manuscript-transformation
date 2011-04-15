@@ -8,7 +8,7 @@ OUTPUT_DIRECTORY  = "#{DATA_DIRECTORY}/output/n3"
 
 parker_manuscripts = Array.new
 
-puts "Examining #{INPUT_DIRECTORY} for Parker XML configuration file\n"
+puts "Examining #{INPUT_DIRECTORY} for Parker XML configuration files\n"
 
 Dir.glob("#{INPUT_DIRECTORY}/*.xml") { |file|
   puts "Processing #{file}" if DMS::debug  
