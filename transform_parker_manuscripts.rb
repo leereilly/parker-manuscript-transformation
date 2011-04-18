@@ -2,21 +2,15 @@
 
 require 'lib/dms'
 
-DATA_DIRECTORY    = "test_data"  # change this to 'data' for the complete collection
+DATA_DIRECTORY    = "data"  # change this to 'data' for the complete collection
 INPUT_DIRECTORY   = "#{DATA_DIRECTORY}/input/xml" 
 OUTPUT_DIRECTORY  = "#{DATA_DIRECTORY}/output/n3" 
-
-parker_manuscripts = Array.new
 
 puts "Examining #{INPUT_DIRECTORY} for Parker XML configuration files\n"
 
 Dir.glob("#{INPUT_DIRECTORY}/*.xml") { |file|
   puts "Processing #{file}" if DMS::debug  
   manuscript = DMS::Manuscript.new(file)
-  parker_manuscripts << manuscript
-}
-
-parker_manuscripts.each do |manuscript|
   puts "\nTransforming manuscript #{manuscript.name}"    
   puts "  Manuscript: #{manuscript.inspect}" if DMS::debug
   
@@ -62,4 +56,4 @@ parker_manuscripts.each do |manuscript|
   puts "  Generating ImageCollection file"
   image_collection_file = "#{OUTPUT_DIRECTORY}/ImageCollection#{manuscript.name}.n3"
   image_collection = DMS::Transformation::ImageCollection.new(manuscript, image_collection_file)
-end
+}
