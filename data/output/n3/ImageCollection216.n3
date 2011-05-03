@@ -1,0 +1,121 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix oac: <http://www.openannotation.org/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<Parker/MS_216/JP2_MS_216_NC/216_BFE_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "8000";
+   exif:width "9700" .
+<Parker/MS_216/JP2_MS_216_NC/216_SFE_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "9700";
+   exif:width "8000" .
+<Parker/MS_216/JP2_MS_216_NC/216_SPN_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "9700";
+   exif:width "8000" .
+<Parker/MS_216/JP2_MS_216_NC/216_TFE_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "8000";
+   exif:width "9700" .
+<Parker/MS_216/JP2_MS_216_NC/216_bob_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "7230";
+   exif:width "5428" .
+<Parker/MS_216/JP2_MS_216_NC/216_fob_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "7230";
+   exif:width "5428" .
+<Parker/MS_216/JP2_MS_216_TC/216_BFE_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "2193";
+   exif:width "5472" .
+<Parker/MS_216/JP2_MS_216_TC/216_SFE_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "7080";
+   exif:width "2142" .
+<Parker/MS_216/JP2_MS_216_TC/216_SPN_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "6984";
+   exif:width "2177" .
+<Parker/MS_216/JP2_MS_216_TC/216_TFE_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "2214";
+   exif:width "5454" .
+<Parker/MS_216/JP2_MS_216_TC/216_bob_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "5710";
+   exif:width "4384" .
+<Parker/MS_216/JP2_MS_216_TC/216_fob_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "6012";
+   exif:width "4306" .
+<http://dmstech.groups.stanford.edu/CCC216/ImageCollection> rdf:first <http://dmstech.groups.stanford.edu/CCC216/images/1>;
+   rdf:rest ( <http://dmss.groups.stanford.edu/CCC216/images/2> <http://dmss.groups.stanford.edu/CCC216/images/3> <http://dmss.groups.stanford.edu/CCC216/images/4> <http://dmss.groups.stanford.edu/CCC216/images/5> <http://dmss.groups.stanford.edu/CCC216/images/6> ) ;
+   ore:aggregates <http://dmss.groups.stanford.edu/CCC216/images/1>,
+   <http://dmss.groups.stanford.edu/CCC216/images/2>,
+   <http://dmss.groups.stanford.edu/CCC216/images/3>,
+   <http://dmss.groups.stanford.edu/CCC216/images/4>,
+   <http://dmss.groups.stanford.edu/CCC216/images/5>,
+   <http://dmss.groups.stanford.edu/CCC216/images/6>;
+   a dms:ImageCollection,
+   ore:Aggregation,
+   rdf:List .
+<http://dmss.groups.stanford.edu/CCC216/images/1> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/fob.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/fob>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC216/images/2> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/bob.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/bob>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC216/images/3> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/spn.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/spn>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC216/images/4> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/tfe.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/tfe>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC216/images/5> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/sfe.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/sfe>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC216/images/6> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC216/bfe.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC216/bfe>;
+   a dms:ImageAnnotation .
+<http://dmss.stanford.edu/dmstech/CCC216/bfe> dc:title "Bottom edge";
+   a dms:Canvas;
+   exif:height "8000";
+   exif:width "9700" .
+<http://dmss.stanford.edu/dmstech/CCC216/bfe.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_BFE_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_BFE_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC216/bob> dc:title "Back outside binding";
+   a dms:Canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC216/bob.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_bob_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_bob_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC216/fob> dc:title "Front outside binding";
+   a dms:Canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC216/fob.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_fob_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_fob_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC216/sfe> dc:title "Foredge";
+   a dms:Canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC216/sfe.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_SFE_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_SFE_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC216/spn> dc:title "Spine";
+   a dms:Canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC216/spn.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_SPN_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_SPN_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC216/tfe> dc:title "Top edge";
+   a dms:Canvas;
+   exif:height "8000";
+   exif:width "9700" .
+<http://dmss.stanford.edu/dmstech/CCC216/tfe.imageChoice> dms:ImageChoice "Parker/MS_216/JP2_MS_216_NC/216_TFE_NC_46.jp2",
+   "Parker/MS_216/JP2_MS_216_TC/216_TFE_TC_46.jp2" .

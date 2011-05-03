@@ -1,0 +1,171 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC501/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC501/fob> <http://dmss.stanford.edu/dmstech/CCC501/fib> <http://dmss.stanford.edu/dmstech/CCC501/aR> <http://dmss.stanford.edu/dmstech/CCC501/aV> <http://dmss.stanford.edu/dmstech/CCC501/bR> <http://dmss.stanford.edu/dmstech/CCC501/bV> <http://dmss.stanford.edu/dmstech/CCC501/cR> <http://dmss.stanford.edu/dmstech/CCC501/cV> <http://dmss.stanford.edu/dmstech/CCC501/dR> <http://dmss.stanford.edu/dmstech/CCC501/dV> <http://dmss.stanford.edu/dmstech/CCC501/eR> <http://dmss.stanford.edu/dmstech/CCC501/eV> <http://dmss.stanford.edu/dmstech/CCC501/fR> <http://dmss.stanford.edu/dmstech/CCC501/fV> <http://dmss.stanford.edu/dmstech/CCC501/gR> <http://dmss.stanford.edu/dmstech/CCC501/gV> <http://dmss.stanford.edu/dmstech/CCC501/hR> <http://dmss.stanford.edu/dmstech/CCC501/hV> <http://dmss.stanford.edu/dmstech/CCC501/iR> <http://dmss.stanford.edu/dmstech/CCC501/iV> <http://dmss.stanford.edu/dmstech/CCC501/jR> <http://dmss.stanford.edu/dmstech/CCC501/jV> <http://dmss.stanford.edu/dmstech/CCC501/kR> <http://dmss.stanford.edu/dmstech/CCC501/kV> <http://dmss.stanford.edu/dmstech/CCC501/lR> <http://dmss.stanford.edu/dmstech/CCC501/lV> <http://dmss.stanford.edu/dmstech/CCC501/mR> <http://dmss.stanford.edu/dmstech/CCC501/spn> <http://dmss.stanford.edu/dmstech/CCC501/tfe> <http://dmss.stanford.edu/dmstech/CCC501/sfe> <http://dmss.stanford.edu/dmstech/CCC501/bfe> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC501/aR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/aV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/bR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/bV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/bfe>,
+   <http://dmss.stanford.edu/dmstech/CCC501/cR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/cV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC501/dR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/dV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/eR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/eV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/fR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/fV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/fib>,
+   <http://dmss.stanford.edu/dmstech/CCC501/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC501/gR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/gV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/hR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/hV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/jR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/jV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/kR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/kV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/lR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/lV>,
+   <http://dmss.stanford.edu/dmstech/CCC501/mR>,
+   <http://dmss.stanford.edu/dmstech/CCC501/sfe>,
+   <http://dmss.stanford.edu/dmstech/CCC501/spn>,
+   <http://dmss.stanford.edu/dmstech/CCC501/tfe>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC501/aR> dc:title "CCC501 f. a R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/aV> dc:title "CCC501 f. a V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/bR> dc:title "CCC501 f. b R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/bV> dc:title "CCC501 f. b V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/bfe> dc:title "CCC501 Bottom edge";
+   a dms:canvas;
+   exif:height "8000";
+   exif:width "9700" .
+<http://dmss.stanford.edu/dmstech/CCC501/cR> dc:title "CCC501 f. c R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/cV> dc:title "CCC501 f. c V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/coverblank> dc:title "CCC501 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC501/dR> dc:title "CCC501 f. d R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/dV> dc:title "CCC501 f. d V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/eR> dc:title "CCC501 f. e R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/eV> dc:title "CCC501 f. e V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/fR> dc:title "CCC501 f. f R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/fV> dc:title "CCC501 f. f V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/fib> dc:title "CCC501 Front inside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/fob> dc:title "CCC501 Front outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/gR> dc:title "CCC501 f. g R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/gV> dc:title "CCC501 f. g V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/hR> dc:title "CCC501 f. h R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/hV> dc:title "CCC501 f. h V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/iR> dc:title "CCC501 f. i R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/iV> dc:title "CCC501 f. i V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/jR> dc:title "CCC501 f. j R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/jV> dc:title "CCC501 f. j V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/kR> dc:title "CCC501 f. k R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/kV> dc:title "CCC501 f. k V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/lR> dc:title "CCC501 f. l R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/lV> dc:title "CCC501 f. l V";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/mR> dc:title "CCC501 f. m R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC501/sfe> dc:title "CCC501 Foredge";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC501/spn> dc:title "CCC501 Spine";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC501/tfe> dc:title "CCC501 Top edge";
+   a dms:canvas;
+   exif:height "8000";
+   exif:width "9700" .

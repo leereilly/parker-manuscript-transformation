@@ -1,0 +1,51 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC545/1M>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC545/2M> <http://dmss.stanford.edu/dmstech/CCC545/3M> <http://dmss.stanford.edu/dmstech/CCC545/4M> <http://dmss.stanford.edu/dmstech/CCC545/5M> <http://dmss.stanford.edu/dmstech/CCC545/6M> <http://dmss.stanford.edu/dmstech/CCC545/1D> <http://dmss.stanford.edu/dmstech/CCC545/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC545/1D>,
+   <http://dmss.stanford.edu/dmstech/CCC545/1M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/2M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/3M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/4M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/5M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/6M>,
+   <http://dmss.stanford.edu/dmstech/CCC545/coverblank>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC545/1D> dc:title "CCC545 001 D";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/1M> dc:title "CCC545 001 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/2M> dc:title "CCC545 002 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/3M> dc:title "CCC545 003 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/4M> dc:title "CCC545 004 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/5M> dc:title "CCC545 005 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/6M> dc:title "CCC545 006 M";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC545/coverblank> dc:title "CCC545 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .

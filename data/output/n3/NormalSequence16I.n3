@@ -1,0 +1,126 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC16I/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC16I/fob> <http://dmss.stanford.edu/dmstech/CCC16I/fib> <http://dmss.stanford.edu/dmstech/CCC16I/aR> <http://dmss.stanford.edu/dmstech/CCC16I/aV> <http://dmss.stanford.edu/dmstech/CCC16I/bR> <http://dmss.stanford.edu/dmstech/CCC16I/bV> <http://dmss.stanford.edu/dmstech/CCC16I/iR> <http://dmss.stanford.edu/dmstech/CCC16I/iV> <http://dmss.stanford.edu/dmstech/CCC16I/iiR> <http://dmss.stanford.edu/dmstech/CCC16I/iiV> <http://dmss.stanford.edu/dmstech/CCC16I/iiiR> <http://dmss.stanford.edu/dmstech/CCC16I/iiiV> <http://dmss.stanford.edu/dmstech/CCC16I/ivR> <http://dmss.stanford.edu/dmstech/CCC16I/ivV> <http://dmss.stanford.edu/dmstech/CCC16I/vR> <http://dmss.stanford.edu/dmstech/CCC16I/vV> <http://dmss.stanford.edu/dmstech/CCC16I/cR> <http://dmss.stanford.edu/dmstech/CCC16I/cV> <http://dmss.stanford.edu/dmstech/CCC16I/dR> <http://dmss.stanford.edu/dmstech/CCC16I/dV> <http://dmss.stanford.edu/dmstech/CCC16I/bib> <http://dmss.stanford.edu/dmstech/CCC16I/bob> <http://dmss.stanford.edu/dmstech/CCC16I/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC16I/aR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/aV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/bR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/bV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/bib>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/cR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/cV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/dR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/dV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/fib>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iiR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iiV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iiiR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/iiiV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/ivR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/ivV>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/vR>,
+   <http://dmss.stanford.edu/dmstech/CCC16I/vV>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC16I/aR> dc:title "CCC16I f. a R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/aV> dc:title "CCC16I f. a V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/bR> dc:title "CCC16I f. b R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/bV> dc:title "CCC16I f. b V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/bib> dc:title "CCC16I Back inside binding";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/bob> dc:title "CCC16I Back outside binding";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/cR> dc:title "CCC16I f. c R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/cV> dc:title "CCC16I f. c V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/coverblank> dc:title "CCC16I coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC16I/dR> dc:title "CCC16I f. d R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/dV> dc:title "CCC16I f. d V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/fib> dc:title "CCC16I Front inside binding";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/fob> dc:title "CCC16I Front outside binding";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iR> dc:title "CCC16I f. i R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iV> dc:title "CCC16I f. i V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iiR> dc:title "CCC16I f. ii R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iiV> dc:title "CCC16I f. ii V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iiiR> dc:title "CCC16I f. iii R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/iiiV> dc:title "CCC16I f. iii V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/ivR> dc:title "CCC16I f. iv R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/ivV> dc:title "CCC16I f. iv V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/vR> dc:title "CCC16I f. v R";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC16I/vV> dc:title "CCC16I f. v V";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .

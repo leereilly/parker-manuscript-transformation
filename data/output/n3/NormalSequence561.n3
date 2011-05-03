@@ -1,0 +1,91 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC561/fib>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC561/fob> <http://dmss.stanford.edu/dmstech/CCC561/iR> <http://dmss.stanford.edu/dmstech/CCC561/iV> <http://dmss.stanford.edu/dmstech/CCC561/1R> <http://dmss.stanford.edu/dmstech/CCC561/1V> <http://dmss.stanford.edu/dmstech/CCC561/2R> <http://dmss.stanford.edu/dmstech/CCC561/2V> <http://dmss.stanford.edu/dmstech/CCC561/3R> <http://dmss.stanford.edu/dmstech/CCC561/3V> <http://dmss.stanford.edu/dmstech/CCC561/4R> <http://dmss.stanford.edu/dmstech/CCC561/4V> <http://dmss.stanford.edu/dmstech/CCC561/iiR> <http://dmss.stanford.edu/dmstech/CCC561/iiV> <http://dmss.stanford.edu/dmstech/CCC561/bib> <http://dmss.stanford.edu/dmstech/CCC561/bob> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC561/1R>,
+   <http://dmss.stanford.edu/dmstech/CCC561/1V>,
+   <http://dmss.stanford.edu/dmstech/CCC561/2R>,
+   <http://dmss.stanford.edu/dmstech/CCC561/2V>,
+   <http://dmss.stanford.edu/dmstech/CCC561/3R>,
+   <http://dmss.stanford.edu/dmstech/CCC561/3V>,
+   <http://dmss.stanford.edu/dmstech/CCC561/4R>,
+   <http://dmss.stanford.edu/dmstech/CCC561/4V>,
+   <http://dmss.stanford.edu/dmstech/CCC561/bib>,
+   <http://dmss.stanford.edu/dmstech/CCC561/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC561/fib>,
+   <http://dmss.stanford.edu/dmstech/CCC561/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC561/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC561/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC561/iiR>,
+   <http://dmss.stanford.edu/dmstech/CCC561/iiV>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC561/1R> dc:title "CCC561 f. 1 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/1V> dc:title "CCC561 f. 1 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/2R> dc:title "CCC561 f. 2 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/2V> dc:title "CCC561 f. 2 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/3R> dc:title "CCC561 f. 3 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/3V> dc:title "CCC561 f. 3 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/4R> dc:title "CCC561 f. 4 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/4V> dc:title "CCC561 f. 4 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/bib> dc:title "CCC561 Back inside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/bob> dc:title "CCC561 Back outside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/fib> dc:title "CCC561 Front outside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/fob> dc:title "CCC561 Front inside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/iR> dc:title "CCC561 f. i R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/iV> dc:title "CCC561 f. i V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/iiR> dc:title "CCC561 f. ii R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC561/iiV> dc:title "CCC561 f. ii V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .

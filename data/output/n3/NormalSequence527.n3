@@ -1,0 +1,176 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC527/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC527/fob> <http://dmss.stanford.edu/dmstech/CCC527/fib> <http://dmss.stanford.edu/dmstech/CCC527/aR> <http://dmss.stanford.edu/dmstech/CCC527/aV> <http://dmss.stanford.edu/dmstech/CCC527/bR> <http://dmss.stanford.edu/dmstech/CCC527/bV> <http://dmss.stanford.edu/dmstech/CCC527/cR> <http://dmss.stanford.edu/dmstech/CCC527/cV> <http://dmss.stanford.edu/dmstech/CCC527/dR> <http://dmss.stanford.edu/dmstech/CCC527/dV> <http://dmss.stanford.edu/dmstech/CCC527/eR> <http://dmss.stanford.edu/dmstech/CCC527/eV> <http://dmss.stanford.edu/dmstech/CCC527/fR> <http://dmss.stanford.edu/dmstech/CCC527/fV> <http://dmss.stanford.edu/dmstech/CCC527/gR> <http://dmss.stanford.edu/dmstech/CCC527/gV> <http://dmss.stanford.edu/dmstech/CCC527/hR> <http://dmss.stanford.edu/dmstech/CCC527/hV> <http://dmss.stanford.edu/dmstech/CCC527/iR> <http://dmss.stanford.edu/dmstech/CCC527/iV> <http://dmss.stanford.edu/dmstech/CCC527/jR> <http://dmss.stanford.edu/dmstech/CCC527/jV> <http://dmss.stanford.edu/dmstech/CCC527/kR> <http://dmss.stanford.edu/dmstech/CCC527/kV> <http://dmss.stanford.edu/dmstech/CCC527/lR> <http://dmss.stanford.edu/dmstech/CCC527/lV> <http://dmss.stanford.edu/dmstech/CCC527/bib> <http://dmss.stanford.edu/dmstech/CCC527/bob> <http://dmss.stanford.edu/dmstech/CCC527/bob> <http://dmss.stanford.edu/dmstech/CCC527/spn> <http://dmss.stanford.edu/dmstech/CCC527/tfe> <http://dmss.stanford.edu/dmstech/CCC527/sfe> <http://dmss.stanford.edu/dmstech/CCC527/bfe> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC527/aR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/aV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/bR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/bV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/bfe>,
+   <http://dmss.stanford.edu/dmstech/CCC527/bib>,
+   <http://dmss.stanford.edu/dmstech/CCC527/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC527/cR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/cV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC527/dR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/dV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/eR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/eV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/fR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/fV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/fib>,
+   <http://dmss.stanford.edu/dmstech/CCC527/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC527/gR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/gV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/hR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/hV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/jR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/jV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/kR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/kV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/lR>,
+   <http://dmss.stanford.edu/dmstech/CCC527/lV>,
+   <http://dmss.stanford.edu/dmstech/CCC527/sfe>,
+   <http://dmss.stanford.edu/dmstech/CCC527/spn>,
+   <http://dmss.stanford.edu/dmstech/CCC527/tfe>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC527/aR> dc:title "CCC527 f. a R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/aV> dc:title "CCC527 f. a V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/bR> dc:title "CCC527 f. b R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/bV> dc:title "CCC527 f. b V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/bfe> dc:title "CCC527 Bottom edge";
+   a dms:canvas;
+   exif:height "8000";
+   exif:width "9700" .
+<http://dmss.stanford.edu/dmstech/CCC527/bib> dc:title "CCC527 Back inside binding";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/bob> dc:title "CCC527 Back outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/cR> dc:title "CCC527 f. c R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/cV> dc:title "CCC527 f. c V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/coverblank> dc:title "CCC527 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/dR> dc:title "CCC527 f. d R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/dV> dc:title "CCC527 f. d V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/eR> dc:title "CCC527 f. e R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/eV> dc:title "CCC527 f. e V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/fR> dc:title "CCC527 f. f R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/fV> dc:title "CCC527 f. f V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/fib> dc:title "CCC527 Front inside binding";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/fob> dc:title "CCC527 Front outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/gR> dc:title "CCC527 f. g R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/gV> dc:title "CCC527 f. g V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/hR> dc:title "CCC527 f. h R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/hV> dc:title "CCC527 f. h V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/iR> dc:title "CCC527 f. i R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/iV> dc:title "CCC527 f. i V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/jR> dc:title "CCC527 f. j R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/jV> dc:title "CCC527 f. j V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/kR> dc:title "CCC527 f. k R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/kV> dc:title "CCC527 f. k V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/lR> dc:title "CCC527 f. l R";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC527/lV> dc:title "CCC527 f. l V";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC527/sfe> dc:title "CCC527 Foredge";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC527/spn> dc:title "CCC527 Spine";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC527/tfe> dc:title "CCC527 Top edge";
+   a dms:canvas;
+   exif:height "8000";
+   exif:width "9700" .

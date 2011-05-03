@@ -1,0 +1,1086 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC202/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC202/aR> <http://dmss.stanford.edu/dmstech/CCC202/aV> <http://dmss.stanford.edu/dmstech/CCC202/bR> <http://dmss.stanford.edu/dmstech/CCC202/bV> <http://dmss.stanford.edu/dmstech/CCC202/iR> <http://dmss.stanford.edu/dmstech/CCC202/iV> <http://dmss.stanford.edu/dmstech/CCC202/iiR> <http://dmss.stanford.edu/dmstech/CCC202/iiV> <http://dmss.stanford.edu/dmstech/CCC202/iiiR> <http://dmss.stanford.edu/dmstech/CCC202/iiiV> <http://dmss.stanford.edu/dmstech/CCC202/1R> <http://dmss.stanford.edu/dmstech/CCC202/1V> <http://dmss.stanford.edu/dmstech/CCC202/2R> <http://dmss.stanford.edu/dmstech/CCC202/2V> <http://dmss.stanford.edu/dmstech/CCC202/3R> <http://dmss.stanford.edu/dmstech/CCC202/3V> <http://dmss.stanford.edu/dmstech/CCC202/4R> <http://dmss.stanford.edu/dmstech/CCC202/4V> <http://dmss.stanford.edu/dmstech/CCC202/5R> <http://dmss.stanford.edu/dmstech/CCC202/5V> <http://dmss.stanford.edu/dmstech/CCC202/6R> <http://dmss.stanford.edu/dmstech/CCC202/6V> <http://dmss.stanford.edu/dmstech/CCC202/7R> <http://dmss.stanford.edu/dmstech/CCC202/7V> <http://dmss.stanford.edu/dmstech/CCC202/8R> <http://dmss.stanford.edu/dmstech/CCC202/8V> <http://dmss.stanford.edu/dmstech/CCC202/9R> <http://dmss.stanford.edu/dmstech/CCC202/9V> <http://dmss.stanford.edu/dmstech/CCC202/10R> <http://dmss.stanford.edu/dmstech/CCC202/10V> <http://dmss.stanford.edu/dmstech/CCC202/11R> <http://dmss.stanford.edu/dmstech/CCC202/11V> <http://dmss.stanford.edu/dmstech/CCC202/12R> <http://dmss.stanford.edu/dmstech/CCC202/12V> <http://dmss.stanford.edu/dmstech/CCC202/13R> <http://dmss.stanford.edu/dmstech/CCC202/13V> <http://dmss.stanford.edu/dmstech/CCC202/14R> <http://dmss.stanford.edu/dmstech/CCC202/14V> <http://dmss.stanford.edu/dmstech/CCC202/15R> <http://dmss.stanford.edu/dmstech/CCC202/15V> <http://dmss.stanford.edu/dmstech/CCC202/16R> <http://dmss.stanford.edu/dmstech/CCC202/16V> <http://dmss.stanford.edu/dmstech/CCC202/17R> <http://dmss.stanford.edu/dmstech/CCC202/17V> <http://dmss.stanford.edu/dmstech/CCC202/18R> <http://dmss.stanford.edu/dmstech/CCC202/18V> <http://dmss.stanford.edu/dmstech/CCC202/19R> <http://dmss.stanford.edu/dmstech/CCC202/19V> <http://dmss.stanford.edu/dmstech/CCC202/20R> <http://dmss.stanford.edu/dmstech/CCC202/20V> <http://dmss.stanford.edu/dmstech/CCC202/21R> <http://dmss.stanford.edu/dmstech/CCC202/21V> <http://dmss.stanford.edu/dmstech/CCC202/22R> <http://dmss.stanford.edu/dmstech/CCC202/22V> <http://dmss.stanford.edu/dmstech/CCC202/23R> <http://dmss.stanford.edu/dmstech/CCC202/23V> <http://dmss.stanford.edu/dmstech/CCC202/24R> <http://dmss.stanford.edu/dmstech/CCC202/24V> <http://dmss.stanford.edu/dmstech/CCC202/25R> <http://dmss.stanford.edu/dmstech/CCC202/25V> <http://dmss.stanford.edu/dmstech/CCC202/26R> <http://dmss.stanford.edu/dmstech/CCC202/26V> <http://dmss.stanford.edu/dmstech/CCC202/27R> <http://dmss.stanford.edu/dmstech/CCC202/27V> <http://dmss.stanford.edu/dmstech/CCC202/28R> <http://dmss.stanford.edu/dmstech/CCC202/28V> <http://dmss.stanford.edu/dmstech/CCC202/29R> <http://dmss.stanford.edu/dmstech/CCC202/29V> <http://dmss.stanford.edu/dmstech/CCC202/30R> <http://dmss.stanford.edu/dmstech/CCC202/30V> <http://dmss.stanford.edu/dmstech/CCC202/31R> <http://dmss.stanford.edu/dmstech/CCC202/31V> <http://dmss.stanford.edu/dmstech/CCC202/32R> <http://dmss.stanford.edu/dmstech/CCC202/32V> <http://dmss.stanford.edu/dmstech/CCC202/33R> <http://dmss.stanford.edu/dmstech/CCC202/33V> <http://dmss.stanford.edu/dmstech/CCC202/34R> <http://dmss.stanford.edu/dmstech/CCC202/34V> <http://dmss.stanford.edu/dmstech/CCC202/35R> <http://dmss.stanford.edu/dmstech/CCC202/35V> <http://dmss.stanford.edu/dmstech/CCC202/36R> <http://dmss.stanford.edu/dmstech/CCC202/36V> <http://dmss.stanford.edu/dmstech/CCC202/37R> <http://dmss.stanford.edu/dmstech/CCC202/37V> <http://dmss.stanford.edu/dmstech/CCC202/38R> <http://dmss.stanford.edu/dmstech/CCC202/38V> <http://dmss.stanford.edu/dmstech/CCC202/39R> <http://dmss.stanford.edu/dmstech/CCC202/39V> <http://dmss.stanford.edu/dmstech/CCC202/40R> <http://dmss.stanford.edu/dmstech/CCC202/40V> <http://dmss.stanford.edu/dmstech/CCC202/41R> <http://dmss.stanford.edu/dmstech/CCC202/41V> <http://dmss.stanford.edu/dmstech/CCC202/42R> <http://dmss.stanford.edu/dmstech/CCC202/42V> <http://dmss.stanford.edu/dmstech/CCC202/43R> <http://dmss.stanford.edu/dmstech/CCC202/43V> <http://dmss.stanford.edu/dmstech/CCC202/44R> <http://dmss.stanford.edu/dmstech/CCC202/44V> <http://dmss.stanford.edu/dmstech/CCC202/45R> <http://dmss.stanford.edu/dmstech/CCC202/45V> <http://dmss.stanford.edu/dmstech/CCC202/46R> <http://dmss.stanford.edu/dmstech/CCC202/46V> <http://dmss.stanford.edu/dmstech/CCC202/47R> <http://dmss.stanford.edu/dmstech/CCC202/47V> <http://dmss.stanford.edu/dmstech/CCC202/48R> <http://dmss.stanford.edu/dmstech/CCC202/48V> <http://dmss.stanford.edu/dmstech/CCC202/49R> <http://dmss.stanford.edu/dmstech/CCC202/49V> <http://dmss.stanford.edu/dmstech/CCC202/50R> <http://dmss.stanford.edu/dmstech/CCC202/50V> <http://dmss.stanford.edu/dmstech/CCC202/51R> <http://dmss.stanford.edu/dmstech/CCC202/51V> <http://dmss.stanford.edu/dmstech/CCC202/52R> <http://dmss.stanford.edu/dmstech/CCC202/52V> <http://dmss.stanford.edu/dmstech/CCC202/53R> <http://dmss.stanford.edu/dmstech/CCC202/53V> <http://dmss.stanford.edu/dmstech/CCC202/54R> <http://dmss.stanford.edu/dmstech/CCC202/54V> <http://dmss.stanford.edu/dmstech/CCC202/55R> <http://dmss.stanford.edu/dmstech/CCC202/55V> <http://dmss.stanford.edu/dmstech/CCC202/56R> <http://dmss.stanford.edu/dmstech/CCC202/56V> <http://dmss.stanford.edu/dmstech/CCC202/57R> <http://dmss.stanford.edu/dmstech/CCC202/57V> <http://dmss.stanford.edu/dmstech/CCC202/58R> <http://dmss.stanford.edu/dmstech/CCC202/58V> <http://dmss.stanford.edu/dmstech/CCC202/59R> <http://dmss.stanford.edu/dmstech/CCC202/59V> <http://dmss.stanford.edu/dmstech/CCC202/60R> <http://dmss.stanford.edu/dmstech/CCC202/60V> <http://dmss.stanford.edu/dmstech/CCC202/61R> <http://dmss.stanford.edu/dmstech/CCC202/61V> <http://dmss.stanford.edu/dmstech/CCC202/62R> <http://dmss.stanford.edu/dmstech/CCC202/62V> <http://dmss.stanford.edu/dmstech/CCC202/63R> <http://dmss.stanford.edu/dmstech/CCC202/63V> <http://dmss.stanford.edu/dmstech/CCC202/64R> <http://dmss.stanford.edu/dmstech/CCC202/64V> <http://dmss.stanford.edu/dmstech/CCC202/65R> <http://dmss.stanford.edu/dmstech/CCC202/65V> <http://dmss.stanford.edu/dmstech/CCC202/66R> <http://dmss.stanford.edu/dmstech/CCC202/66V> <http://dmss.stanford.edu/dmstech/CCC202/67R> <http://dmss.stanford.edu/dmstech/CCC202/67V> <http://dmss.stanford.edu/dmstech/CCC202/68R> <http://dmss.stanford.edu/dmstech/CCC202/68V> <http://dmss.stanford.edu/dmstech/CCC202/69R> <http://dmss.stanford.edu/dmstech/CCC202/69V> <http://dmss.stanford.edu/dmstech/CCC202/70R> <http://dmss.stanford.edu/dmstech/CCC202/70V> <http://dmss.stanford.edu/dmstech/CCC202/71R> <http://dmss.stanford.edu/dmstech/CCC202/71V> <http://dmss.stanford.edu/dmstech/CCC202/72R> <http://dmss.stanford.edu/dmstech/CCC202/72V> <http://dmss.stanford.edu/dmstech/CCC202/73R> <http://dmss.stanford.edu/dmstech/CCC202/73V> <http://dmss.stanford.edu/dmstech/CCC202/74R> <http://dmss.stanford.edu/dmstech/CCC202/74V> <http://dmss.stanford.edu/dmstech/CCC202/75R> <http://dmss.stanford.edu/dmstech/CCC202/75V> <http://dmss.stanford.edu/dmstech/CCC202/76R> <http://dmss.stanford.edu/dmstech/CCC202/76V> <http://dmss.stanford.edu/dmstech/CCC202/77R> <http://dmss.stanford.edu/dmstech/CCC202/77V> <http://dmss.stanford.edu/dmstech/CCC202/78R> <http://dmss.stanford.edu/dmstech/CCC202/78V> <http://dmss.stanford.edu/dmstech/CCC202/79R> <http://dmss.stanford.edu/dmstech/CCC202/79V> <http://dmss.stanford.edu/dmstech/CCC202/80R> <http://dmss.stanford.edu/dmstech/CCC202/80V> <http://dmss.stanford.edu/dmstech/CCC202/81R> <http://dmss.stanford.edu/dmstech/CCC202/81V> <http://dmss.stanford.edu/dmstech/CCC202/82R> <http://dmss.stanford.edu/dmstech/CCC202/82V> <http://dmss.stanford.edu/dmstech/CCC202/83R> <http://dmss.stanford.edu/dmstech/CCC202/83V> <http://dmss.stanford.edu/dmstech/CCC202/84R> <http://dmss.stanford.edu/dmstech/CCC202/84V> <http://dmss.stanford.edu/dmstech/CCC202/85R> <http://dmss.stanford.edu/dmstech/CCC202/85V> <http://dmss.stanford.edu/dmstech/CCC202/86R> <http://dmss.stanford.edu/dmstech/CCC202/86V> <http://dmss.stanford.edu/dmstech/CCC202/87R> <http://dmss.stanford.edu/dmstech/CCC202/87V> <http://dmss.stanford.edu/dmstech/CCC202/88R> <http://dmss.stanford.edu/dmstech/CCC202/88V> <http://dmss.stanford.edu/dmstech/CCC202/89R> <http://dmss.stanford.edu/dmstech/CCC202/89V> <http://dmss.stanford.edu/dmstech/CCC202/90R> <http://dmss.stanford.edu/dmstech/CCC202/90V> <http://dmss.stanford.edu/dmstech/CCC202/91R> <http://dmss.stanford.edu/dmstech/CCC202/91V> <http://dmss.stanford.edu/dmstech/CCC202/92R> <http://dmss.stanford.edu/dmstech/CCC202/92V> <http://dmss.stanford.edu/dmstech/CCC202/93R> <http://dmss.stanford.edu/dmstech/CCC202/93V> <http://dmss.stanford.edu/dmstech/CCC202/94R> <http://dmss.stanford.edu/dmstech/CCC202/94V> <http://dmss.stanford.edu/dmstech/CCC202/95R> <http://dmss.stanford.edu/dmstech/CCC202/95V> <http://dmss.stanford.edu/dmstech/CCC202/96R> <http://dmss.stanford.edu/dmstech/CCC202/96V> <http://dmss.stanford.edu/dmstech/CCC202/97R> <http://dmss.stanford.edu/dmstech/CCC202/97V> <http://dmss.stanford.edu/dmstech/CCC202/98R> <http://dmss.stanford.edu/dmstech/CCC202/98V> <http://dmss.stanford.edu/dmstech/CCC202/99R> <http://dmss.stanford.edu/dmstech/CCC202/99V> <http://dmss.stanford.edu/dmstech/CCC202/100R> <http://dmss.stanford.edu/dmstech/CCC202/100V> <http://dmss.stanford.edu/dmstech/CCC202/cR> <http://dmss.stanford.edu/dmstech/CCC202/cV> <http://dmss.stanford.edu/dmstech/CCC202/dR> <http://dmss.stanford.edu/dmstech/CCC202/dV> <http://dmss.stanford.edu/dmstech/CCC202/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC202/100R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/100V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/10R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/10V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/11R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/11V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/12R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/12V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/13R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/13V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/14R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/14V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/15R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/15V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/16R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/16V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/17R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/17V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/18R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/18V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/19R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/19V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/1R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/1V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/20R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/20V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/21R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/21V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/22R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/22V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/23R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/23V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/24R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/24V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/25R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/25V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/26R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/26V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/27R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/27V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/28R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/28V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/29R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/29V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/2R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/2V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/30R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/30V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/31R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/31V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/32R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/32V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/33R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/33V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/34R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/34V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/35R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/35V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/36R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/36V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/37R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/37V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/38R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/38V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/39R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/39V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/3R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/3V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/40R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/40V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/41R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/41V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/42R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/42V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/43R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/43V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/44R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/44V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/45R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/45V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/46R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/46V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/47R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/47V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/48R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/48V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/49R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/49V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/4R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/4V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/50R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/50V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/51R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/51V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/52R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/52V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/53R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/53V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/54R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/54V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/55R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/55V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/56R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/56V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/57R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/57V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/58R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/58V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/59R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/59V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/5R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/5V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/60R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/60V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/61R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/61V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/62R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/62V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/63R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/63V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/64R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/64V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/65R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/65V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/66R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/66V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/67R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/67V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/68R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/68V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/69R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/69V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/6R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/6V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/70R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/70V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/71R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/71V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/72R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/72V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/73R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/73V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/74R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/74V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/75R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/75V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/76R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/76V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/77R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/77V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/78R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/78V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/79R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/79V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/7R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/7V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/80R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/80V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/81R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/81V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/82R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/82V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/83R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/83V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/84R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/84V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/85R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/85V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/86R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/86V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/87R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/87V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/88R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/88V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/89R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/89V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/8R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/8V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/90R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/90V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/91R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/91V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/92R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/92V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/93R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/93V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/94R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/94V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/95R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/95V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/96R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/96V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/97R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/97V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/98R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/98V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/99R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/99V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/9R>,
+   <http://dmss.stanford.edu/dmstech/CCC202/9V>,
+   <http://dmss.stanford.edu/dmstech/CCC202/aR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/aV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/bR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/bV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/cR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/cV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC202/dR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/dV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iiR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iiV>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iiiR>,
+   <http://dmss.stanford.edu/dmstech/CCC202/iiiV>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC202/100R> dc:title "CCC202 f. 100 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/100V> dc:title "CCC202 f. 100 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/10R> dc:title "CCC202 f. 10 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/10V> dc:title "CCC202 f. 10 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/11R> dc:title "CCC202 f. 11 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/11V> dc:title "CCC202 f. 11 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/12R> dc:title "CCC202 f. 12 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/12V> dc:title "CCC202 f. 12 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/13R> dc:title "CCC202 f. 13 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/13V> dc:title "CCC202 f. 13 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/14R> dc:title "CCC202 f. 14 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/14V> dc:title "CCC202 f. 14 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/15R> dc:title "CCC202 f. 15 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/15V> dc:title "CCC202 f. 15 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/16R> dc:title "CCC202 f. 16 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/16V> dc:title "CCC202 f. 16 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/17R> dc:title "CCC202 f. 17 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/17V> dc:title "CCC202 f. 17 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/18R> dc:title "CCC202 f. 18 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/18V> dc:title "CCC202 f. 18 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/19R> dc:title "CCC202 f. 19 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/19V> dc:title "CCC202 f. 19 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/1R> dc:title "CCC202 f. 1 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/1V> dc:title "CCC202 f. 1 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/20R> dc:title "CCC202 f. 20 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/20V> dc:title "CCC202 f. 20 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/21R> dc:title "CCC202 f. 21 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/21V> dc:title "CCC202 f. 21 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/22R> dc:title "CCC202 f. 22 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/22V> dc:title "CCC202 f. 22 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/23R> dc:title "CCC202 f. 23 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/23V> dc:title "CCC202 f. 23 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/24R> dc:title "CCC202 f. 24 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/24V> dc:title "CCC202 f. 24 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/25R> dc:title "CCC202 f. 25 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/25V> dc:title "CCC202 f. 25 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/26R> dc:title "CCC202 f. 26 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/26V> dc:title "CCC202 f. 26 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/27R> dc:title "CCC202 f. 27 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/27V> dc:title "CCC202 f. 27 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/28R> dc:title "CCC202 f. 28 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/28V> dc:title "CCC202 f. 28 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/29R> dc:title "CCC202 f. 29 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/29V> dc:title "CCC202 f. 29 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/2R> dc:title "CCC202 f. 2 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/2V> dc:title "CCC202 f. 2 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/30R> dc:title "CCC202 f. 30 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/30V> dc:title "CCC202 f. 30 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/31R> dc:title "CCC202 f. 31 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/31V> dc:title "CCC202 f. 31 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/32R> dc:title "CCC202 f. 32 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/32V> dc:title "CCC202 f. 32 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/33R> dc:title "CCC202 f. 33 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/33V> dc:title "CCC202 f. 33 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/34R> dc:title "CCC202 f. 34 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/34V> dc:title "CCC202 f. 34 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/35R> dc:title "CCC202 f. 35 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/35V> dc:title "CCC202 f. 35 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/36R> dc:title "CCC202 f. 36 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/36V> dc:title "CCC202 f. 36 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/37R> dc:title "CCC202 f. 37 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/37V> dc:title "CCC202 f. 37 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/38R> dc:title "CCC202 f. 38 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/38V> dc:title "CCC202 f. 38 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/39R> dc:title "CCC202 f. 39 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/39V> dc:title "CCC202 f. 39 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/3R> dc:title "CCC202 f. 3 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/3V> dc:title "CCC202 f. 3 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/40R> dc:title "CCC202 f. 40 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/40V> dc:title "CCC202 f. 40 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/41R> dc:title "CCC202 f. 41 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/41V> dc:title "CCC202 f. 41 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/42R> dc:title "CCC202 f. 42 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/42V> dc:title "CCC202 f. 42 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/43R> dc:title "CCC202 f. 43 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/43V> dc:title "CCC202 f. 43 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/44R> dc:title "CCC202 f. 44 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/44V> dc:title "CCC202 f. 44 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/45R> dc:title "CCC202 f. 45 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/45V> dc:title "CCC202 f. 45 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/46R> dc:title "CCC202 f. 46 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/46V> dc:title "CCC202 f. 46 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/47R> dc:title "CCC202 f. 47 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/47V> dc:title "CCC202 f. 47 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/48R> dc:title "CCC202 f. 48 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/48V> dc:title "CCC202 f. 48 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/49R> dc:title "CCC202 f. 49 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/49V> dc:title "CCC202 f. 49 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/4R> dc:title "CCC202 f. 4 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/4V> dc:title "CCC202 f. 4 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/50R> dc:title "CCC202 f. 50 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/50V> dc:title "CCC202 f. 50 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/51R> dc:title "CCC202 f. 51 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/51V> dc:title "CCC202 f. 51 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/52R> dc:title "CCC202 f. 52 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/52V> dc:title "CCC202 f. 52 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/53R> dc:title "CCC202 f. 53 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/53V> dc:title "CCC202 f. 53 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/54R> dc:title "CCC202 f. 54 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/54V> dc:title "CCC202 f. 54 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/55R> dc:title "CCC202 f. 55 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/55V> dc:title "CCC202 f. 55 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/56R> dc:title "CCC202 f. 56 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/56V> dc:title "CCC202 f. 56 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/57R> dc:title "CCC202 f. 57 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/57V> dc:title "CCC202 f. 57 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/58R> dc:title "CCC202 f. 58 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/58V> dc:title "CCC202 f. 58 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/59R> dc:title "CCC202 f. 59 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/59V> dc:title "CCC202 f. 59 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/5R> dc:title "CCC202 f. 5 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/5V> dc:title "CCC202 f. 5 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/60R> dc:title "CCC202 f. 60 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/60V> dc:title "CCC202 f. 60 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/61R> dc:title "CCC202 f. 61 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/61V> dc:title "CCC202 f. 61 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/62R> dc:title "CCC202 f. 62 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/62V> dc:title "CCC202 f. 62 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/63R> dc:title "CCC202 f. 63 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/63V> dc:title "CCC202 f. 63 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/64R> dc:title "CCC202 f. 64 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/64V> dc:title "CCC202 f. 64 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/65R> dc:title "CCC202 f. 65 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/65V> dc:title "CCC202 f. 65 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/66R> dc:title "CCC202 f. 66 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/66V> dc:title "CCC202 f. 66 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/67R> dc:title "CCC202 f. 67 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/67V> dc:title "CCC202 f. 67 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/68R> dc:title "CCC202 f. 68 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/68V> dc:title "CCC202 f. 68 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/69R> dc:title "CCC202 f. 69 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/69V> dc:title "CCC202 f. 69 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/6R> dc:title "CCC202 f. 6 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/6V> dc:title "CCC202 f. 6 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/70R> dc:title "CCC202 f. 70 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/70V> dc:title "CCC202 f. 70 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/71R> dc:title "CCC202 f. 71 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/71V> dc:title "CCC202 f. 71 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/72R> dc:title "CCC202 f. 72 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/72V> dc:title "CCC202 f. 72 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/73R> dc:title "CCC202 f. 73 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/73V> dc:title "CCC202 f. 73 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/74R> dc:title "CCC202 f. 74 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/74V> dc:title "CCC202 f. 74 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/75R> dc:title "CCC202 f. 75 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/75V> dc:title "CCC202 f. 75 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/76R> dc:title "CCC202 f. 76 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/76V> dc:title "CCC202 f. 76 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/77R> dc:title "CCC202 f. 77 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/77V> dc:title "CCC202 f. 77 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/78R> dc:title "CCC202 f. 78 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/78V> dc:title "CCC202 f. 78 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/79R> dc:title "CCC202 f. 79 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/79V> dc:title "CCC202 f. 79 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/7R> dc:title "CCC202 f. 7 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/7V> dc:title "CCC202 f. 7 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/80R> dc:title "CCC202 f. 80 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/80V> dc:title "CCC202 f. 80 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/81R> dc:title "CCC202 f. 81 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/81V> dc:title "CCC202 f. 81 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/82R> dc:title "CCC202 f. 82 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/82V> dc:title "CCC202 f. 82 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/83R> dc:title "CCC202 f. 83 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/83V> dc:title "CCC202 f. 83 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/84R> dc:title "CCC202 f. 84 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/84V> dc:title "CCC202 f. 84 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/85R> dc:title "CCC202 f. 85 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/85V> dc:title "CCC202 f. 85 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/86R> dc:title "CCC202 f. 86 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/86V> dc:title "CCC202 f. 86 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/87R> dc:title "CCC202 f. 87 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/87V> dc:title "CCC202 f. 87 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/88R> dc:title "CCC202 f. 88 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/88V> dc:title "CCC202 f. 88 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/89R> dc:title "CCC202 f. 89 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/89V> dc:title "CCC202 f. 89 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/8R> dc:title "CCC202 f. 8 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/8V> dc:title "CCC202 f. 8 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/90R> dc:title "CCC202 f. 90 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/90V> dc:title "CCC202 f. 90 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/91R> dc:title "CCC202 f. 91 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/91V> dc:title "CCC202 f. 91 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/92R> dc:title "CCC202 f. 92 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/92V> dc:title "CCC202 f. 92 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/93R> dc:title "CCC202 f. 93 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/93V> dc:title "CCC202 f. 93 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/94R> dc:title "CCC202 f. 94 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/94V> dc:title "CCC202 f. 94 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/95R> dc:title "CCC202 f. 95 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/95V> dc:title "CCC202 f. 95 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/96R> dc:title "CCC202 f. 96 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/96V> dc:title "CCC202 f. 96 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/97R> dc:title "CCC202 f. 97 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/97V> dc:title "CCC202 f. 97 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/98R> dc:title "CCC202 f. 98 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/98V> dc:title "CCC202 f. 98 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/99R> dc:title "CCC202 f. 99 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/99V> dc:title "CCC202 f. 99 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/9R> dc:title "CCC202 f. 9 r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/9V> dc:title "CCC202 f. 9 v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/aR> dc:title "CCC202 f. a r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/aV> dc:title "CCC202 f. a v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/bR> dc:title "CCC202 f. b r ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/bV> dc:title "CCC202 f. b v ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/cR> dc:title "CCC202 f. c R ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/cV> dc:title "CCC202 f. c V ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/coverblank> dc:title "CCC202 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC202/dR> dc:title "CCC202 f. d R ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/dV> dc:title "CCC202 f. d V ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iR> dc:title "CCC202 f. i R ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iV> dc:title "CCC202 f. i V ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iiR> dc:title "CCC202 f. ii R ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iiV> dc:title "CCC202 f. ii V ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iiiR> dc:title "CCC202 f. iii R ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC202/iiiV> dc:title "CCC202 f. iii V ";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .

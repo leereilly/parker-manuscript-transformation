@@ -1,0 +1,2176 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC360/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC360/fob> <http://dmss.stanford.edu/dmstech/CCC360/fib> <http://dmss.stanford.edu/dmstech/CCC360/iR> <http://dmss.stanford.edu/dmstech/CCC360/iV> <http://dmss.stanford.edu/dmstech/CCC360/iiR> <http://dmss.stanford.edu/dmstech/CCC360/iiV> <http://dmss.stanford.edu/dmstech/CCC360/1R> <http://dmss.stanford.edu/dmstech/CCC360/1V> <http://dmss.stanford.edu/dmstech/CCC360/2R> <http://dmss.stanford.edu/dmstech/CCC360/2V> <http://dmss.stanford.edu/dmstech/CCC360/3R> <http://dmss.stanford.edu/dmstech/CCC360/3V> <http://dmss.stanford.edu/dmstech/CCC360/4R> <http://dmss.stanford.edu/dmstech/CCC360/4V> <http://dmss.stanford.edu/dmstech/CCC360/5R> <http://dmss.stanford.edu/dmstech/CCC360/5V> <http://dmss.stanford.edu/dmstech/CCC360/6R> <http://dmss.stanford.edu/dmstech/CCC360/6V> <http://dmss.stanford.edu/dmstech/CCC360/7R> <http://dmss.stanford.edu/dmstech/CCC360/7V> <http://dmss.stanford.edu/dmstech/CCC360/8R> <http://dmss.stanford.edu/dmstech/CCC360/8V> <http://dmss.stanford.edu/dmstech/CCC360/9R> <http://dmss.stanford.edu/dmstech/CCC360/9V> <http://dmss.stanford.edu/dmstech/CCC360/10R> <http://dmss.stanford.edu/dmstech/CCC360/10V> <http://dmss.stanford.edu/dmstech/CCC360/11R> <http://dmss.stanford.edu/dmstech/CCC360/11V> <http://dmss.stanford.edu/dmstech/CCC360/12R> <http://dmss.stanford.edu/dmstech/CCC360/12V> <http://dmss.stanford.edu/dmstech/CCC360/13R> <http://dmss.stanford.edu/dmstech/CCC360/13V> <http://dmss.stanford.edu/dmstech/CCC360/14R> <http://dmss.stanford.edu/dmstech/CCC360/14V> <http://dmss.stanford.edu/dmstech/CCC360/15R> <http://dmss.stanford.edu/dmstech/CCC360/15V> <http://dmss.stanford.edu/dmstech/CCC360/16R> <http://dmss.stanford.edu/dmstech/CCC360/16V> <http://dmss.stanford.edu/dmstech/CCC360/17R> <http://dmss.stanford.edu/dmstech/CCC360/17V> <http://dmss.stanford.edu/dmstech/CCC360/18R> <http://dmss.stanford.edu/dmstech/CCC360/18V> <http://dmss.stanford.edu/dmstech/CCC360/19R> <http://dmss.stanford.edu/dmstech/CCC360/19V> <http://dmss.stanford.edu/dmstech/CCC360/20R> <http://dmss.stanford.edu/dmstech/CCC360/20V> <http://dmss.stanford.edu/dmstech/CCC360/21R> <http://dmss.stanford.edu/dmstech/CCC360/21V> <http://dmss.stanford.edu/dmstech/CCC360/22R> <http://dmss.stanford.edu/dmstech/CCC360/22V> <http://dmss.stanford.edu/dmstech/CCC360/23R> <http://dmss.stanford.edu/dmstech/CCC360/23V> <http://dmss.stanford.edu/dmstech/CCC360/24R> <http://dmss.stanford.edu/dmstech/CCC360/24V> <http://dmss.stanford.edu/dmstech/CCC360/25R> <http://dmss.stanford.edu/dmstech/CCC360/25V> <http://dmss.stanford.edu/dmstech/CCC360/26R> <http://dmss.stanford.edu/dmstech/CCC360/26V> <http://dmss.stanford.edu/dmstech/CCC360/27R> <http://dmss.stanford.edu/dmstech/CCC360/27V> <http://dmss.stanford.edu/dmstech/CCC360/28R> <http://dmss.stanford.edu/dmstech/CCC360/28V> <http://dmss.stanford.edu/dmstech/CCC360/29R> <http://dmss.stanford.edu/dmstech/CCC360/29V> <http://dmss.stanford.edu/dmstech/CCC360/30R> <http://dmss.stanford.edu/dmstech/CCC360/30V> <http://dmss.stanford.edu/dmstech/CCC360/31R> <http://dmss.stanford.edu/dmstech/CCC360/31V> <http://dmss.stanford.edu/dmstech/CCC360/32R> <http://dmss.stanford.edu/dmstech/CCC360/32V> <http://dmss.stanford.edu/dmstech/CCC360/33R> <http://dmss.stanford.edu/dmstech/CCC360/33V> <http://dmss.stanford.edu/dmstech/CCC360/34R> <http://dmss.stanford.edu/dmstech/CCC360/34V> <http://dmss.stanford.edu/dmstech/CCC360/35R> <http://dmss.stanford.edu/dmstech/CCC360/35V> <http://dmss.stanford.edu/dmstech/CCC360/36R> <http://dmss.stanford.edu/dmstech/CCC360/36V> <http://dmss.stanford.edu/dmstech/CCC360/37R> <http://dmss.stanford.edu/dmstech/CCC360/37V> <http://dmss.stanford.edu/dmstech/CCC360/38R> <http://dmss.stanford.edu/dmstech/CCC360/38V> <http://dmss.stanford.edu/dmstech/CCC360/39R> <http://dmss.stanford.edu/dmstech/CCC360/39V> <http://dmss.stanford.edu/dmstech/CCC360/40R> <http://dmss.stanford.edu/dmstech/CCC360/40V> <http://dmss.stanford.edu/dmstech/CCC360/41R> <http://dmss.stanford.edu/dmstech/CCC360/41V> <http://dmss.stanford.edu/dmstech/CCC360/42R> <http://dmss.stanford.edu/dmstech/CCC360/42V> <http://dmss.stanford.edu/dmstech/CCC360/43R> <http://dmss.stanford.edu/dmstech/CCC360/43V> <http://dmss.stanford.edu/dmstech/CCC360/44R> <http://dmss.stanford.edu/dmstech/CCC360/44V> <http://dmss.stanford.edu/dmstech/CCC360/45R> <http://dmss.stanford.edu/dmstech/CCC360/45V> <http://dmss.stanford.edu/dmstech/CCC360/46R> <http://dmss.stanford.edu/dmstech/CCC360/46V> <http://dmss.stanford.edu/dmstech/CCC360/47R> <http://dmss.stanford.edu/dmstech/CCC360/47V> <http://dmss.stanford.edu/dmstech/CCC360/48R> <http://dmss.stanford.edu/dmstech/CCC360/48V> <http://dmss.stanford.edu/dmstech/CCC360/49R> <http://dmss.stanford.edu/dmstech/CCC360/49V> <http://dmss.stanford.edu/dmstech/CCC360/50R> <http://dmss.stanford.edu/dmstech/CCC360/50V> <http://dmss.stanford.edu/dmstech/CCC360/51R> <http://dmss.stanford.edu/dmstech/CCC360/51V> <http://dmss.stanford.edu/dmstech/CCC360/52R> <http://dmss.stanford.edu/dmstech/CCC360/52V> <http://dmss.stanford.edu/dmstech/CCC360/53R> <http://dmss.stanford.edu/dmstech/CCC360/53V> <http://dmss.stanford.edu/dmstech/CCC360/54R> <http://dmss.stanford.edu/dmstech/CCC360/54V> <http://dmss.stanford.edu/dmstech/CCC360/55R> <http://dmss.stanford.edu/dmstech/CCC360/55V> <http://dmss.stanford.edu/dmstech/CCC360/56R> <http://dmss.stanford.edu/dmstech/CCC360/56V> <http://dmss.stanford.edu/dmstech/CCC360/57R> <http://dmss.stanford.edu/dmstech/CCC360/57V> <http://dmss.stanford.edu/dmstech/CCC360/58R> <http://dmss.stanford.edu/dmstech/CCC360/58V> <http://dmss.stanford.edu/dmstech/CCC360/59R> <http://dmss.stanford.edu/dmstech/CCC360/59V> <http://dmss.stanford.edu/dmstech/CCC360/60R> <http://dmss.stanford.edu/dmstech/CCC360/60V> <http://dmss.stanford.edu/dmstech/CCC360/61R> <http://dmss.stanford.edu/dmstech/CCC360/61V> <http://dmss.stanford.edu/dmstech/CCC360/62R> <http://dmss.stanford.edu/dmstech/CCC360/62V> <http://dmss.stanford.edu/dmstech/CCC360/63R> <http://dmss.stanford.edu/dmstech/CCC360/63V> <http://dmss.stanford.edu/dmstech/CCC360/64R> <http://dmss.stanford.edu/dmstech/CCC360/64V> <http://dmss.stanford.edu/dmstech/CCC360/65R> <http://dmss.stanford.edu/dmstech/CCC360/65V> <http://dmss.stanford.edu/dmstech/CCC360/66R> <http://dmss.stanford.edu/dmstech/CCC360/66V> <http://dmss.stanford.edu/dmstech/CCC360/67R> <http://dmss.stanford.edu/dmstech/CCC360/67V> <http://dmss.stanford.edu/dmstech/CCC360/68R> <http://dmss.stanford.edu/dmstech/CCC360/68V> <http://dmss.stanford.edu/dmstech/CCC360/69R> <http://dmss.stanford.edu/dmstech/CCC360/69V> <http://dmss.stanford.edu/dmstech/CCC360/70R> <http://dmss.stanford.edu/dmstech/CCC360/70V> <http://dmss.stanford.edu/dmstech/CCC360/71R> <http://dmss.stanford.edu/dmstech/CCC360/71V> <http://dmss.stanford.edu/dmstech/CCC360/72R> <http://dmss.stanford.edu/dmstech/CCC360/72V> <http://dmss.stanford.edu/dmstech/CCC360/73R> <http://dmss.stanford.edu/dmstech/CCC360/73V> <http://dmss.stanford.edu/dmstech/CCC360/74R> <http://dmss.stanford.edu/dmstech/CCC360/74V> <http://dmss.stanford.edu/dmstech/CCC360/75R> <http://dmss.stanford.edu/dmstech/CCC360/75V> <http://dmss.stanford.edu/dmstech/CCC360/76R> <http://dmss.stanford.edu/dmstech/CCC360/76V> <http://dmss.stanford.edu/dmstech/CCC360/77R> <http://dmss.stanford.edu/dmstech/CCC360/77V> <http://dmss.stanford.edu/dmstech/CCC360/78R> <http://dmss.stanford.edu/dmstech/CCC360/78V> <http://dmss.stanford.edu/dmstech/CCC360/79R> <http://dmss.stanford.edu/dmstech/CCC360/79V> <http://dmss.stanford.edu/dmstech/CCC360/80R> <http://dmss.stanford.edu/dmstech/CCC360/80V> <http://dmss.stanford.edu/dmstech/CCC360/81R> <http://dmss.stanford.edu/dmstech/CCC360/81V> <http://dmss.stanford.edu/dmstech/CCC360/82R> <http://dmss.stanford.edu/dmstech/CCC360/82V> <http://dmss.stanford.edu/dmstech/CCC360/83R> <http://dmss.stanford.edu/dmstech/CCC360/83V> <http://dmss.stanford.edu/dmstech/CCC360/84R> <http://dmss.stanford.edu/dmstech/CCC360/84V> <http://dmss.stanford.edu/dmstech/CCC360/85R> <http://dmss.stanford.edu/dmstech/CCC360/85V> <http://dmss.stanford.edu/dmstech/CCC360/86R> <http://dmss.stanford.edu/dmstech/CCC360/86V> <http://dmss.stanford.edu/dmstech/CCC360/87R> <http://dmss.stanford.edu/dmstech/CCC360/87V> <http://dmss.stanford.edu/dmstech/CCC360/88R> <http://dmss.stanford.edu/dmstech/CCC360/88V> <http://dmss.stanford.edu/dmstech/CCC360/89R> <http://dmss.stanford.edu/dmstech/CCC360/89V> <http://dmss.stanford.edu/dmstech/CCC360/90R> <http://dmss.stanford.edu/dmstech/CCC360/90V> <http://dmss.stanford.edu/dmstech/CCC360/91R> <http://dmss.stanford.edu/dmstech/CCC360/91V> <http://dmss.stanford.edu/dmstech/CCC360/92R> <http://dmss.stanford.edu/dmstech/CCC360/92V> <http://dmss.stanford.edu/dmstech/CCC360/93R> <http://dmss.stanford.edu/dmstech/CCC360/93V> <http://dmss.stanford.edu/dmstech/CCC360/94R> <http://dmss.stanford.edu/dmstech/CCC360/94V> <http://dmss.stanford.edu/dmstech/CCC360/95R> <http://dmss.stanford.edu/dmstech/CCC360/95V> <http://dmss.stanford.edu/dmstech/CCC360/96R> <http://dmss.stanford.edu/dmstech/CCC360/96V> <http://dmss.stanford.edu/dmstech/CCC360/97R> <http://dmss.stanford.edu/dmstech/CCC360/97V> <http://dmss.stanford.edu/dmstech/CCC360/98R> <http://dmss.stanford.edu/dmstech/CCC360/98V> <http://dmss.stanford.edu/dmstech/CCC360/99R> <http://dmss.stanford.edu/dmstech/CCC360/99V> <http://dmss.stanford.edu/dmstech/CCC360/100R> <http://dmss.stanford.edu/dmstech/CCC360/100V> <http://dmss.stanford.edu/dmstech/CCC360/101R> <http://dmss.stanford.edu/dmstech/CCC360/101V> <http://dmss.stanford.edu/dmstech/CCC360/102R> <http://dmss.stanford.edu/dmstech/CCC360/102V> <http://dmss.stanford.edu/dmstech/CCC360/103R> <http://dmss.stanford.edu/dmstech/CCC360/103V> <http://dmss.stanford.edu/dmstech/CCC360/104R> <http://dmss.stanford.edu/dmstech/CCC360/104V> <http://dmss.stanford.edu/dmstech/CCC360/105R> <http://dmss.stanford.edu/dmstech/CCC360/105V> <http://dmss.stanford.edu/dmstech/CCC360/106R> <http://dmss.stanford.edu/dmstech/CCC360/106V> <http://dmss.stanford.edu/dmstech/CCC360/107R> <http://dmss.stanford.edu/dmstech/CCC360/107V> <http://dmss.stanford.edu/dmstech/CCC360/108R> <http://dmss.stanford.edu/dmstech/CCC360/108V> <http://dmss.stanford.edu/dmstech/CCC360/109R> <http://dmss.stanford.edu/dmstech/CCC360/109V> <http://dmss.stanford.edu/dmstech/CCC360/110R> <http://dmss.stanford.edu/dmstech/CCC360/110V> <http://dmss.stanford.edu/dmstech/CCC360/111R> <http://dmss.stanford.edu/dmstech/CCC360/111V> <http://dmss.stanford.edu/dmstech/CCC360/112R> <http://dmss.stanford.edu/dmstech/CCC360/112V> <http://dmss.stanford.edu/dmstech/CCC360/113R> <http://dmss.stanford.edu/dmstech/CCC360/113V> <http://dmss.stanford.edu/dmstech/CCC360/114R> <http://dmss.stanford.edu/dmstech/CCC360/114V> <http://dmss.stanford.edu/dmstech/CCC360/115R> <http://dmss.stanford.edu/dmstech/CCC360/115V> <http://dmss.stanford.edu/dmstech/CCC360/116R> <http://dmss.stanford.edu/dmstech/CCC360/116V> <http://dmss.stanford.edu/dmstech/CCC360/117R> <http://dmss.stanford.edu/dmstech/CCC360/117V> <http://dmss.stanford.edu/dmstech/CCC360/118R> <http://dmss.stanford.edu/dmstech/CCC360/118V> <http://dmss.stanford.edu/dmstech/CCC360/119R> <http://dmss.stanford.edu/dmstech/CCC360/119V> <http://dmss.stanford.edu/dmstech/CCC360/120R> <http://dmss.stanford.edu/dmstech/CCC360/120V> <http://dmss.stanford.edu/dmstech/CCC360/121R> <http://dmss.stanford.edu/dmstech/CCC360/121V> <http://dmss.stanford.edu/dmstech/CCC360/122R> <http://dmss.stanford.edu/dmstech/CCC360/122V> <http://dmss.stanford.edu/dmstech/CCC360/123R> <http://dmss.stanford.edu/dmstech/CCC360/123V> <http://dmss.stanford.edu/dmstech/CCC360/124R> <http://dmss.stanford.edu/dmstech/CCC360/124V> <http://dmss.stanford.edu/dmstech/CCC360/125R> <http://dmss.stanford.edu/dmstech/CCC360/125V> <http://dmss.stanford.edu/dmstech/CCC360/126R> <http://dmss.stanford.edu/dmstech/CCC360/126V> <http://dmss.stanford.edu/dmstech/CCC360/127R> <http://dmss.stanford.edu/dmstech/CCC360/127V> <http://dmss.stanford.edu/dmstech/CCC360/128R> <http://dmss.stanford.edu/dmstech/CCC360/128V> <http://dmss.stanford.edu/dmstech/CCC360/129R> <http://dmss.stanford.edu/dmstech/CCC360/129V> <http://dmss.stanford.edu/dmstech/CCC360/130R> <http://dmss.stanford.edu/dmstech/CCC360/130V> <http://dmss.stanford.edu/dmstech/CCC360/131R> <http://dmss.stanford.edu/dmstech/CCC360/131V> <http://dmss.stanford.edu/dmstech/CCC360/132R> <http://dmss.stanford.edu/dmstech/CCC360/132V> <http://dmss.stanford.edu/dmstech/CCC360/133R> <http://dmss.stanford.edu/dmstech/CCC360/133V> <http://dmss.stanford.edu/dmstech/CCC360/134R> <http://dmss.stanford.edu/dmstech/CCC360/134V> <http://dmss.stanford.edu/dmstech/CCC360/135R> <http://dmss.stanford.edu/dmstech/CCC360/135V> <http://dmss.stanford.edu/dmstech/CCC360/136R> <http://dmss.stanford.edu/dmstech/CCC360/136V> <http://dmss.stanford.edu/dmstech/CCC360/137R> <http://dmss.stanford.edu/dmstech/CCC360/137V> <http://dmss.stanford.edu/dmstech/CCC360/138R> <http://dmss.stanford.edu/dmstech/CCC360/138V> <http://dmss.stanford.edu/dmstech/CCC360/139R> <http://dmss.stanford.edu/dmstech/CCC360/139V> <http://dmss.stanford.edu/dmstech/CCC360/140R> <http://dmss.stanford.edu/dmstech/CCC360/140V> <http://dmss.stanford.edu/dmstech/CCC360/141R> <http://dmss.stanford.edu/dmstech/CCC360/141V> <http://dmss.stanford.edu/dmstech/CCC360/142R> <http://dmss.stanford.edu/dmstech/CCC360/142V> <http://dmss.stanford.edu/dmstech/CCC360/143R> <http://dmss.stanford.edu/dmstech/CCC360/143V> <http://dmss.stanford.edu/dmstech/CCC360/144R> <http://dmss.stanford.edu/dmstech/CCC360/144V> <http://dmss.stanford.edu/dmstech/CCC360/145R> <http://dmss.stanford.edu/dmstech/CCC360/145V> <http://dmss.stanford.edu/dmstech/CCC360/146R> <http://dmss.stanford.edu/dmstech/CCC360/146V> <http://dmss.stanford.edu/dmstech/CCC360/147R> <http://dmss.stanford.edu/dmstech/CCC360/147V> <http://dmss.stanford.edu/dmstech/CCC360/148R> <http://dmss.stanford.edu/dmstech/CCC360/148V> <http://dmss.stanford.edu/dmstech/CCC360/149R> <http://dmss.stanford.edu/dmstech/CCC360/149V> <http://dmss.stanford.edu/dmstech/CCC360/150R> <http://dmss.stanford.edu/dmstech/CCC360/150V> <http://dmss.stanford.edu/dmstech/CCC360/151R> <http://dmss.stanford.edu/dmstech/CCC360/151V> <http://dmss.stanford.edu/dmstech/CCC360/152R> <http://dmss.stanford.edu/dmstech/CCC360/152V> <http://dmss.stanford.edu/dmstech/CCC360/153R> <http://dmss.stanford.edu/dmstech/CCC360/153V> <http://dmss.stanford.edu/dmstech/CCC360/154R> <http://dmss.stanford.edu/dmstech/CCC360/154V> <http://dmss.stanford.edu/dmstech/CCC360/155R> <http://dmss.stanford.edu/dmstech/CCC360/155V> <http://dmss.stanford.edu/dmstech/CCC360/156R> <http://dmss.stanford.edu/dmstech/CCC360/156V> <http://dmss.stanford.edu/dmstech/CCC360/157R> <http://dmss.stanford.edu/dmstech/CCC360/157V> <http://dmss.stanford.edu/dmstech/CCC360/158R> <http://dmss.stanford.edu/dmstech/CCC360/158V> <http://dmss.stanford.edu/dmstech/CCC360/159R> <http://dmss.stanford.edu/dmstech/CCC360/159V> <http://dmss.stanford.edu/dmstech/CCC360/160R> <http://dmss.stanford.edu/dmstech/CCC360/160V> <http://dmss.stanford.edu/dmstech/CCC360/161R> <http://dmss.stanford.edu/dmstech/CCC360/161V> <http://dmss.stanford.edu/dmstech/CCC360/162R> <http://dmss.stanford.edu/dmstech/CCC360/162V> <http://dmss.stanford.edu/dmstech/CCC360/163R> <http://dmss.stanford.edu/dmstech/CCC360/163V> <http://dmss.stanford.edu/dmstech/CCC360/164R> <http://dmss.stanford.edu/dmstech/CCC360/164V> <http://dmss.stanford.edu/dmstech/CCC360/165R> <http://dmss.stanford.edu/dmstech/CCC360/165V> <http://dmss.stanford.edu/dmstech/CCC360/166R> <http://dmss.stanford.edu/dmstech/CCC360/166V> <http://dmss.stanford.edu/dmstech/CCC360/167R> <http://dmss.stanford.edu/dmstech/CCC360/167V> <http://dmss.stanford.edu/dmstech/CCC360/168R> <http://dmss.stanford.edu/dmstech/CCC360/168V> <http://dmss.stanford.edu/dmstech/CCC360/169R> <http://dmss.stanford.edu/dmstech/CCC360/169V> <http://dmss.stanford.edu/dmstech/CCC360/170R> <http://dmss.stanford.edu/dmstech/CCC360/170V> <http://dmss.stanford.edu/dmstech/CCC360/171R> <http://dmss.stanford.edu/dmstech/CCC360/171V> <http://dmss.stanford.edu/dmstech/CCC360/172R> <http://dmss.stanford.edu/dmstech/CCC360/172V> <http://dmss.stanford.edu/dmstech/CCC360/173R> <http://dmss.stanford.edu/dmstech/CCC360/173V> <http://dmss.stanford.edu/dmstech/CCC360/174R> <http://dmss.stanford.edu/dmstech/CCC360/174V> <http://dmss.stanford.edu/dmstech/CCC360/175R> <http://dmss.stanford.edu/dmstech/CCC360/175V> <http://dmss.stanford.edu/dmstech/CCC360/176R> <http://dmss.stanford.edu/dmstech/CCC360/176V> <http://dmss.stanford.edu/dmstech/CCC360/177R> <http://dmss.stanford.edu/dmstech/CCC360/177V> <http://dmss.stanford.edu/dmstech/CCC360/178R> <http://dmss.stanford.edu/dmstech/CCC360/178V> <http://dmss.stanford.edu/dmstech/CCC360/179R> <http://dmss.stanford.edu/dmstech/CCC360/179V> <http://dmss.stanford.edu/dmstech/CCC360/180R> <http://dmss.stanford.edu/dmstech/CCC360/180V> <http://dmss.stanford.edu/dmstech/CCC360/181R> <http://dmss.stanford.edu/dmstech/CCC360/181V> <http://dmss.stanford.edu/dmstech/CCC360/182R> <http://dmss.stanford.edu/dmstech/CCC360/182V> <http://dmss.stanford.edu/dmstech/CCC360/183R> <http://dmss.stanford.edu/dmstech/CCC360/183V> <http://dmss.stanford.edu/dmstech/CCC360/184R> <http://dmss.stanford.edu/dmstech/CCC360/184V> <http://dmss.stanford.edu/dmstech/CCC360/185R> <http://dmss.stanford.edu/dmstech/CCC360/185V> <http://dmss.stanford.edu/dmstech/CCC360/186R> <http://dmss.stanford.edu/dmstech/CCC360/186V> <http://dmss.stanford.edu/dmstech/CCC360/187R> <http://dmss.stanford.edu/dmstech/CCC360/187V> <http://dmss.stanford.edu/dmstech/CCC360/188R> <http://dmss.stanford.edu/dmstech/CCC360/188V> <http://dmss.stanford.edu/dmstech/CCC360/189R> <http://dmss.stanford.edu/dmstech/CCC360/189V> <http://dmss.stanford.edu/dmstech/CCC360/190R> <http://dmss.stanford.edu/dmstech/CCC360/190V> <http://dmss.stanford.edu/dmstech/CCC360/191R> <http://dmss.stanford.edu/dmstech/CCC360/191V> <http://dmss.stanford.edu/dmstech/CCC360/192R> <http://dmss.stanford.edu/dmstech/CCC360/192V> <http://dmss.stanford.edu/dmstech/CCC360/193R> <http://dmss.stanford.edu/dmstech/CCC360/193V> <http://dmss.stanford.edu/dmstech/CCC360/194R> <http://dmss.stanford.edu/dmstech/CCC360/194V> <http://dmss.stanford.edu/dmstech/CCC360/195R> <http://dmss.stanford.edu/dmstech/CCC360/195V> <http://dmss.stanford.edu/dmstech/CCC360/196R> <http://dmss.stanford.edu/dmstech/CCC360/196V> <http://dmss.stanford.edu/dmstech/CCC360/197R> <http://dmss.stanford.edu/dmstech/CCC360/197V> <http://dmss.stanford.edu/dmstech/CCC360/198R> <http://dmss.stanford.edu/dmstech/CCC360/198V> <http://dmss.stanford.edu/dmstech/CCC360/199R> <http://dmss.stanford.edu/dmstech/CCC360/199V> <http://dmss.stanford.edu/dmstech/CCC360/200R> <http://dmss.stanford.edu/dmstech/CCC360/200V> <http://dmss.stanford.edu/dmstech/CCC360/201R> <http://dmss.stanford.edu/dmstech/CCC360/201V> <http://dmss.stanford.edu/dmstech/CCC360/202R> <http://dmss.stanford.edu/dmstech/CCC360/202V> <http://dmss.stanford.edu/dmstech/CCC360/203R> <http://dmss.stanford.edu/dmstech/CCC360/203V> <http://dmss.stanford.edu/dmstech/CCC360/204R> <http://dmss.stanford.edu/dmstech/CCC360/204V> <http://dmss.stanford.edu/dmstech/CCC360/205R> <http://dmss.stanford.edu/dmstech/CCC360/205V> <http://dmss.stanford.edu/dmstech/CCC360/206R> <http://dmss.stanford.edu/dmstech/CCC360/206V> <http://dmss.stanford.edu/dmstech/CCC360/207R> <http://dmss.stanford.edu/dmstech/CCC360/207V> <http://dmss.stanford.edu/dmstech/CCC360/208R> <http://dmss.stanford.edu/dmstech/CCC360/208V> <http://dmss.stanford.edu/dmstech/CCC360/209R> <http://dmss.stanford.edu/dmstech/CCC360/209V> <http://dmss.stanford.edu/dmstech/CCC360/210R> <http://dmss.stanford.edu/dmstech/CCC360/210V> <http://dmss.stanford.edu/dmstech/CCC360/iiiR> <http://dmss.stanford.edu/dmstech/CCC360/iiiV> <http://dmss.stanford.edu/dmstech/CCC360/ivR> <http://dmss.stanford.edu/dmstech/CCC360/ivV> <http://dmss.stanford.edu/dmstech/CCC360/bib> <http://dmss.stanford.edu/dmstech/CCC360/bob> <http://dmss.stanford.edu/dmstech/CCC360/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC360/100R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/100V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/101R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/101V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/102R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/102V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/103R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/103V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/104R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/104V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/105R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/105V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/106R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/106V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/107R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/107V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/108R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/108V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/109R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/109V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/10R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/10V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/110R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/110V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/111R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/111V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/112R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/112V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/113R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/113V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/114R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/114V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/115R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/115V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/116R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/116V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/117R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/117V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/118R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/118V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/119R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/119V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/11R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/11V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/120R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/120V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/121R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/121V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/122R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/122V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/123R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/123V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/124R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/124V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/125R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/125V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/126R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/126V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/127R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/127V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/128R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/128V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/129R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/129V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/12R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/12V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/130R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/130V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/131R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/131V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/132R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/132V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/133R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/133V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/134R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/134V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/135R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/135V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/136R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/136V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/137R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/137V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/138R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/138V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/139R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/139V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/13R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/13V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/140R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/140V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/141R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/141V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/142R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/142V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/143R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/143V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/144R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/144V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/145R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/145V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/146R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/146V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/147R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/147V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/148R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/148V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/149R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/149V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/14R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/14V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/150R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/150V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/151R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/151V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/152R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/152V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/153R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/153V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/154R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/154V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/155R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/155V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/156R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/156V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/157R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/157V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/158R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/158V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/159R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/159V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/15R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/15V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/160R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/160V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/161R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/161V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/162R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/162V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/163R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/163V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/164R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/164V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/165R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/165V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/166R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/166V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/167R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/167V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/168R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/168V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/169R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/169V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/16R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/16V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/170R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/170V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/171R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/171V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/172R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/172V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/173R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/173V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/174R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/174V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/175R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/175V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/176R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/176V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/177R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/177V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/178R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/178V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/179R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/179V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/17R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/17V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/180R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/180V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/181R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/181V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/182R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/182V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/183R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/183V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/184R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/184V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/185R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/185V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/186R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/186V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/187R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/187V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/188R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/188V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/189R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/189V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/18R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/18V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/190R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/190V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/191R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/191V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/192R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/192V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/193R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/193V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/194R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/194V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/195R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/195V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/196R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/196V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/197R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/197V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/198R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/198V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/199R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/199V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/19R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/19V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/1R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/1V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/200R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/200V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/201R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/201V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/202R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/202V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/203R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/203V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/204R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/204V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/205R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/205V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/206R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/206V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/207R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/207V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/208R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/208V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/209R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/209V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/20R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/20V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/210R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/210V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/21R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/21V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/22R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/22V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/23R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/23V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/24R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/24V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/25R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/25V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/26R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/26V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/27R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/27V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/28R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/28V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/29R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/29V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/2R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/2V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/30R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/30V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/31R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/31V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/32R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/32V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/33R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/33V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/34R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/34V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/35R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/35V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/36R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/36V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/37R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/37V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/38R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/38V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/39R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/39V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/3R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/3V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/40R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/40V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/41R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/41V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/42R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/42V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/43R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/43V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/44R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/44V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/45R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/45V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/46R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/46V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/47R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/47V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/48R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/48V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/49R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/49V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/4R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/4V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/50R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/50V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/51R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/51V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/52R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/52V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/53R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/53V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/54R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/54V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/55R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/55V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/56R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/56V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/57R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/57V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/58R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/58V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/59R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/59V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/5R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/5V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/60R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/60V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/61R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/61V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/62R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/62V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/63R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/63V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/64R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/64V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/65R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/65V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/66R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/66V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/67R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/67V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/68R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/68V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/69R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/69V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/6R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/6V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/70R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/70V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/71R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/71V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/72R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/72V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/73R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/73V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/74R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/74V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/75R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/75V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/76R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/76V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/77R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/77V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/78R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/78V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/79R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/79V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/7R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/7V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/80R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/80V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/81R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/81V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/82R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/82V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/83R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/83V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/84R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/84V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/85R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/85V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/86R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/86V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/87R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/87V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/88R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/88V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/89R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/89V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/8R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/8V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/90R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/90V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/91R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/91V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/92R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/92V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/93R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/93V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/94R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/94V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/95R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/95V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/96R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/96V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/97R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/97V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/98R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/98V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/99R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/99V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/9R>,
+   <http://dmss.stanford.edu/dmstech/CCC360/9V>,
+   <http://dmss.stanford.edu/dmstech/CCC360/bib>,
+   <http://dmss.stanford.edu/dmstech/CCC360/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC360/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC360/fib>,
+   <http://dmss.stanford.edu/dmstech/CCC360/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iR>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iV>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iiR>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iiV>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iiiR>,
+   <http://dmss.stanford.edu/dmstech/CCC360/iiiV>,
+   <http://dmss.stanford.edu/dmstech/CCC360/ivR>,
+   <http://dmss.stanford.edu/dmstech/CCC360/ivV>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC360/100R> dc:title "CCC360 f. 100 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/100V> dc:title "CCC360 f. 100 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/101R> dc:title "CCC360 f. 101 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/101V> dc:title "CCC360 f. 101 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/102R> dc:title "CCC360 f. 102 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/102V> dc:title "CCC360 f. 102 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/103R> dc:title "CCC360 f. 103 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/103V> dc:title "CCC360 f. 103 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/104R> dc:title "CCC360 f. 104 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/104V> dc:title "CCC360 f. 104 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/105R> dc:title "CCC360 f. 105 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/105V> dc:title "CCC360 f. 105 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/106R> dc:title "CCC360 f. 106 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/106V> dc:title "CCC360 f. 106 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/107R> dc:title "CCC360 f. 107 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/107V> dc:title "CCC360 f. 107 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/108R> dc:title "CCC360 f. 108 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/108V> dc:title "CCC360 f. 108 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/109R> dc:title "CCC360 f. 109 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/109V> dc:title "CCC360 f. 109 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/10R> dc:title "CCC360 f. 10 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/10V> dc:title "CCC360 f. 10 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/110R> dc:title "CCC360 f. 110 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/110V> dc:title "CCC360 f. 110 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/111R> dc:title "CCC360 f. 111 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/111V> dc:title "CCC360 f. 111 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/112R> dc:title "CCC360 f. 112 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/112V> dc:title "CCC360 f. 112 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/113R> dc:title "CCC360 f. 113 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/113V> dc:title "CCC360 f. 113 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/114R> dc:title "CCC360 f. 114 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/114V> dc:title "CCC360 f. 114 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/115R> dc:title "CCC360 f. 115 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/115V> dc:title "CCC360 f. 115 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/116R> dc:title "CCC360 f. 116 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/116V> dc:title "CCC360 f. 116 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/117R> dc:title "CCC360 f. 117 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/117V> dc:title "CCC360 f. 117 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/118R> dc:title "CCC360 f. 118 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/118V> dc:title "CCC360 f. 118 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/119R> dc:title "CCC360 f. 119 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/119V> dc:title "CCC360 f. 119 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/11R> dc:title "CCC360 f. 11 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/11V> dc:title "CCC360 f. 11 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/120R> dc:title "CCC360 f. 120 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/120V> dc:title "CCC360 f. 120 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/121R> dc:title "CCC360 f. 121 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/121V> dc:title "CCC360 f. 121 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/122R> dc:title "CCC360 f. 122 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/122V> dc:title "CCC360 f. 122 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/123R> dc:title "CCC360 f. 123 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/123V> dc:title "CCC360 f. 123 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/124R> dc:title "CCC360 f. 124 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/124V> dc:title "CCC360 f. 124 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/125R> dc:title "CCC360 f. 125 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/125V> dc:title "CCC360 f. 125 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/126R> dc:title "CCC360 f. 126 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/126V> dc:title "CCC360 f. 126 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/127R> dc:title "CCC360 f. 127 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/127V> dc:title "CCC360 f. 127 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/128R> dc:title "CCC360 f. 128 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/128V> dc:title "CCC360 f. 128 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/129R> dc:title "CCC360 f. 129 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/129V> dc:title "CCC360 f. 129 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/12R> dc:title "CCC360 f. 12 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/12V> dc:title "CCC360 f. 12 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/130R> dc:title "CCC360 f. 130 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/130V> dc:title "CCC360 f. 130 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/131R> dc:title "CCC360 f. 131 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/131V> dc:title "CCC360 f. 131 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/132R> dc:title "CCC360 f. 132 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/132V> dc:title "CCC360 f. 132 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/133R> dc:title "CCC360 f. 133 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/133V> dc:title "CCC360 f. 133 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/134R> dc:title "CCC360 f. 134 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/134V> dc:title "CCC360 f. 134 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/135R> dc:title "CCC360 f. 135 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/135V> dc:title "CCC360 f. 135 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/136R> dc:title "CCC360 f. 136 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/136V> dc:title "CCC360 f. 136 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/137R> dc:title "CCC360 f. 137 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/137V> dc:title "CCC360 f. 137 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/138R> dc:title "CCC360 f. 138 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/138V> dc:title "CCC360 f. 138 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/139R> dc:title "CCC360 f. 139 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/139V> dc:title "CCC360 f. 139 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/13R> dc:title "CCC360 f. 13 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/13V> dc:title "CCC360 f. 13 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/140R> dc:title "CCC360 f. 140 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/140V> dc:title "CCC360 f. 140 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/141R> dc:title "CCC360 f. 141 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/141V> dc:title "CCC360 f. 141 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/142R> dc:title "CCC360 f. 142 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/142V> dc:title "CCC360 f. 142 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/143R> dc:title "CCC360 f. 143 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/143V> dc:title "CCC360 f. 143 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/144R> dc:title "CCC360 f. 144 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/144V> dc:title "CCC360 f. 144 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/145R> dc:title "CCC360 f. 145 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/145V> dc:title "CCC360 f. 145 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/146R> dc:title "CCC360 f. 146 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/146V> dc:title "CCC360 f. 146 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/147R> dc:title "CCC360 f. 147 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/147V> dc:title "CCC360 f. 147 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/148R> dc:title "CCC360 f. 148 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/148V> dc:title "CCC360 f. 148 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/149R> dc:title "CCC360 f. 149 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/149V> dc:title "CCC360 f. 149 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/14R> dc:title "CCC360 f. 14 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/14V> dc:title "CCC360 f. 14 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/150R> dc:title "CCC360 f. 150 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/150V> dc:title "CCC360 f. 150 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/151R> dc:title "CCC360 f. 151 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/151V> dc:title "CCC360 f. 151 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/152R> dc:title "CCC360 f. 152 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/152V> dc:title "CCC360 f. 152 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/153R> dc:title "CCC360 f. 153 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/153V> dc:title "CCC360 f. 153 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/154R> dc:title "CCC360 f. 154 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/154V> dc:title "CCC360 f. 154 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/155R> dc:title "CCC360 f. 155 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/155V> dc:title "CCC360 f. 155 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/156R> dc:title "CCC360 f. 156 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/156V> dc:title "CCC360 f. 156 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/157R> dc:title "CCC360 f. 157 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/157V> dc:title "CCC360 f. 157 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/158R> dc:title "CCC360 f. 158 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/158V> dc:title "CCC360 f. 158 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/159R> dc:title "CCC360 f. 159 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/159V> dc:title "CCC360 f. 159 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/15R> dc:title "CCC360 f. 15 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/15V> dc:title "CCC360 f. 15 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/160R> dc:title "CCC360 f. 160 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/160V> dc:title "CCC360 f. 160 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/161R> dc:title "CCC360 f. 161 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/161V> dc:title "CCC360 f. 161 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/162R> dc:title "CCC360 f. 162 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/162V> dc:title "CCC360 f. 162 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/163R> dc:title "CCC360 f. 163 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/163V> dc:title "CCC360 f. 163 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/164R> dc:title "CCC360 f. 164 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/164V> dc:title "CCC360 f. 164 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/165R> dc:title "CCC360 f. 165 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/165V> dc:title "CCC360 f. 165 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/166R> dc:title "CCC360 f. 166 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/166V> dc:title "CCC360 f. 166 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/167R> dc:title "CCC360 f. 167 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/167V> dc:title "CCC360 f. 167 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/168R> dc:title "CCC360 f. 168 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/168V> dc:title "CCC360 f. 168 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/169R> dc:title "CCC360 f. 169 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/169V> dc:title "CCC360 f. 169 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/16R> dc:title "CCC360 f. 16 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/16V> dc:title "CCC360 f. 16 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/170R> dc:title "CCC360 f. 170 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/170V> dc:title "CCC360 f. 170 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/171R> dc:title "CCC360 f. 171 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/171V> dc:title "CCC360 f. 171 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/172R> dc:title "CCC360 f. 172 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/172V> dc:title "CCC360 f. 172 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/173R> dc:title "CCC360 f. 173 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/173V> dc:title "CCC360 f. 173 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/174R> dc:title "CCC360 f. 174 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/174V> dc:title "CCC360 f. 174 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/175R> dc:title "CCC360 f. 175 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/175V> dc:title "CCC360 f. 175 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/176R> dc:title "CCC360 f. 176 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/176V> dc:title "CCC360 f. 176 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/177R> dc:title "CCC360 f. 177 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/177V> dc:title "CCC360 f. 177 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/178R> dc:title "CCC360 f. 178 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/178V> dc:title "CCC360 f. 178 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/179R> dc:title "CCC360 f. 179 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/179V> dc:title "CCC360 f. 179 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/17R> dc:title "CCC360 f. 17 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/17V> dc:title "CCC360 f. 17 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/180R> dc:title "CCC360 f. 180 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/180V> dc:title "CCC360 f. 180 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/181R> dc:title "CCC360 f. 181 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/181V> dc:title "CCC360 f. 181 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/182R> dc:title "CCC360 f. 182 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/182V> dc:title "CCC360 f. 182 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/183R> dc:title "CCC360 f. 183 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/183V> dc:title "CCC360 f. 183 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/184R> dc:title "CCC360 f. 184 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/184V> dc:title "CCC360 f. 184 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/185R> dc:title "CCC360 f. 185 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/185V> dc:title "CCC360 f. 185 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/186R> dc:title "CCC360 f. 186 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/186V> dc:title "CCC360 f. 186 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/187R> dc:title "CCC360 f. 187 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/187V> dc:title "CCC360 f. 187 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/188R> dc:title "CCC360 f. 188 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/188V> dc:title "CCC360 f. 188 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/189R> dc:title "CCC360 f. 189 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/189V> dc:title "CCC360 f. 189 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/18R> dc:title "CCC360 f. 18 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/18V> dc:title "CCC360 f. 18 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/190R> dc:title "CCC360 f. 190 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/190V> dc:title "CCC360 f. 190 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/191R> dc:title "CCC360 f. 191 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/191V> dc:title "CCC360 f. 191 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/192R> dc:title "CCC360 f. 192 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/192V> dc:title "CCC360 f. 192 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/193R> dc:title "CCC360 f. 193 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/193V> dc:title "CCC360 f. 193 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/194R> dc:title "CCC360 f. 194 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/194V> dc:title "CCC360 f. 194 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/195R> dc:title "CCC360 f. 195 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/195V> dc:title "CCC360 f. 195 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/196R> dc:title "CCC360 f. 196 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/196V> dc:title "CCC360 f. 196 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/197R> dc:title "CCC360 f. 197 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/197V> dc:title "CCC360 f. 197 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/198R> dc:title "CCC360 f. 198 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/198V> dc:title "CCC360 f. 198 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/199R> dc:title "CCC360 f. 199 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/199V> dc:title "CCC360 f. 199 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/19R> dc:title "CCC360 f. 19 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/19V> dc:title "CCC360 f. 19 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/1R> dc:title "CCC360 f. 1 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/1V> dc:title "CCC360 f. 1 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/200R> dc:title "CCC360 f. 200 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/200V> dc:title "CCC360 f. 200 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/201R> dc:title "CCC360 f. 201 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/201V> dc:title "CCC360 f. 201 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/202R> dc:title "CCC360 f. 202 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/202V> dc:title "CCC360 f. 202 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/203R> dc:title "CCC360 f. 203 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/203V> dc:title "CCC360 f. 203 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/204R> dc:title "CCC360 f. 204 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/204V> dc:title "CCC360 f. 204 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/205R> dc:title "CCC360 f. 205 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/205V> dc:title "CCC360 f. 205 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/206R> dc:title "CCC360 f. 206 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/206V> dc:title "CCC360 f. 206 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/207R> dc:title "CCC360 f. 207 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/207V> dc:title "CCC360 f. 207 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/208R> dc:title "CCC360 f. 208 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/208V> dc:title "CCC360 f. 208 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/209R> dc:title "CCC360 f. 209 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/209V> dc:title "CCC360 f. 209 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/20R> dc:title "CCC360 f. 20 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/20V> dc:title "CCC360 f. 20 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/210R> dc:title "CCC360 f. 210 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/210V> dc:title "CCC360 f. 210 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/21R> dc:title "CCC360 f. 21 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/21V> dc:title "CCC360 f. 21 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/22R> dc:title "CCC360 f. 22 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/22V> dc:title "CCC360 f. 22 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/23R> dc:title "CCC360 f. 23 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/23V> dc:title "CCC360 f. 23 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/24R> dc:title "CCC360 f. 24 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/24V> dc:title "CCC360 f. 24 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/25R> dc:title "CCC360 f. 25 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/25V> dc:title "CCC360 f. 25 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/26R> dc:title "CCC360 f. 26 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/26V> dc:title "CCC360 f. 26 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/27R> dc:title "CCC360 f. 27 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/27V> dc:title "CCC360 f. 27 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/28R> dc:title "CCC360 f. 28 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/28V> dc:title "CCC360 f. 28 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/29R> dc:title "CCC360 f. 29 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/29V> dc:title "CCC360 f. 29 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/2R> dc:title "CCC360 f. 2 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/2V> dc:title "CCC360 f. 2 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/30R> dc:title "CCC360 f. 30 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/30V> dc:title "CCC360 f. 30 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/31R> dc:title "CCC360 f. 31 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/31V> dc:title "CCC360 f. 31 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/32R> dc:title "CCC360 f. 32 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/32V> dc:title "CCC360 f. 32 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/33R> dc:title "CCC360 f. 33 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/33V> dc:title "CCC360 f. 33 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/34R> dc:title "CCC360 f. 34 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/34V> dc:title "CCC360 f. 34 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/35R> dc:title "CCC360 f. 35 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/35V> dc:title "CCC360 f. 35 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/36R> dc:title "CCC360 f. 36 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/36V> dc:title "CCC360 f. 36 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/37R> dc:title "CCC360 f. 37 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/37V> dc:title "CCC360 f. 37 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/38R> dc:title "CCC360 f. 38 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/38V> dc:title "CCC360 f. 38 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/39R> dc:title "CCC360 f. 39 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/39V> dc:title "CCC360 f. 39 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/3R> dc:title "CCC360 f. 3 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/3V> dc:title "CCC360 f. 3 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/40R> dc:title "CCC360 f. 40 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/40V> dc:title "CCC360 f. 40 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/41R> dc:title "CCC360 f. 41 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/41V> dc:title "CCC360 f. 41 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/42R> dc:title "CCC360 f. 42 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/42V> dc:title "CCC360 f. 42 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/43R> dc:title "CCC360 f. 43 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/43V> dc:title "CCC360 f. 43 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/44R> dc:title "CCC360 f. 44 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/44V> dc:title "CCC360 f. 44 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/45R> dc:title "CCC360 f. 45 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/45V> dc:title "CCC360 f. 45 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/46R> dc:title "CCC360 f. 46 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/46V> dc:title "CCC360 f. 46 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/47R> dc:title "CCC360 f. 47 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/47V> dc:title "CCC360 f. 47 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/48R> dc:title "CCC360 f. 48 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/48V> dc:title "CCC360 f. 48 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/49R> dc:title "CCC360 f. 49 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/49V> dc:title "CCC360 f. 49 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/4R> dc:title "CCC360 f. 4 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/4V> dc:title "CCC360 f. 4 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/50R> dc:title "CCC360 f. 50 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/50V> dc:title "CCC360 f. 50 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/51R> dc:title "CCC360 f. 51 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/51V> dc:title "CCC360 f. 51 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/52R> dc:title "CCC360 f. 52 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/52V> dc:title "CCC360 f. 52 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/53R> dc:title "CCC360 f. 53 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/53V> dc:title "CCC360 f. 53 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/54R> dc:title "CCC360 f. 54 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/54V> dc:title "CCC360 f. 54 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/55R> dc:title "CCC360 f. 55 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/55V> dc:title "CCC360 f. 55 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/56R> dc:title "CCC360 f. 56 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/56V> dc:title "CCC360 f. 56 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/57R> dc:title "CCC360 f. 57 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/57V> dc:title "CCC360 f. 57 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/58R> dc:title "CCC360 f. 58 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/58V> dc:title "CCC360 f. 58 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/59R> dc:title "CCC360 f. 59 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/59V> dc:title "CCC360 f. 59 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/5R> dc:title "CCC360 f. 5 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/5V> dc:title "CCC360 f. 5 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/60R> dc:title "CCC360 f. 60 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/60V> dc:title "CCC360 f. 60 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/61R> dc:title "CCC360 f. 61 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/61V> dc:title "CCC360 f. 61 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/62R> dc:title "CCC360 f. 62 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/62V> dc:title "CCC360 f. 62 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/63R> dc:title "CCC360 f. 63 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/63V> dc:title "CCC360 f. 63 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/64R> dc:title "CCC360 f. 64 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/64V> dc:title "CCC360 f. 64 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/65R> dc:title "CCC360 f. 65 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/65V> dc:title "CCC360 f. 65 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/66R> dc:title "CCC360 f. 66 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/66V> dc:title "CCC360 f. 66 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/67R> dc:title "CCC360 f. 67 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/67V> dc:title "CCC360 f. 67 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/68R> dc:title "CCC360 f. 68 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/68V> dc:title "CCC360 f. 68 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/69R> dc:title "CCC360 f. 69 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/69V> dc:title "CCC360 f. 69 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/6R> dc:title "CCC360 f. 6 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/6V> dc:title "CCC360 f. 6 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/70R> dc:title "CCC360 f. 70 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/70V> dc:title "CCC360 f. 70 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/71R> dc:title "CCC360 f. 71 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/71V> dc:title "CCC360 f. 71 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/72R> dc:title "CCC360 f. 72 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/72V> dc:title "CCC360 f. 72 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/73R> dc:title "CCC360 f. 73 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/73V> dc:title "CCC360 f. 73 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/74R> dc:title "CCC360 f. 74 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/74V> dc:title "CCC360 f. 74 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/75R> dc:title "CCC360 f. 75 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/75V> dc:title "CCC360 f. 75 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/76R> dc:title "CCC360 f. 76 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/76V> dc:title "CCC360 f. 76 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/77R> dc:title "CCC360 f. 77 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/77V> dc:title "CCC360 f. 77 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/78R> dc:title "CCC360 f. 78 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/78V> dc:title "CCC360 f. 78 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/79R> dc:title "CCC360 f. 79 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/79V> dc:title "CCC360 f. 79 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/7R> dc:title "CCC360 f. 7 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/7V> dc:title "CCC360 f. 7 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/80R> dc:title "CCC360 f. 80 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/80V> dc:title "CCC360 f. 80 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/81R> dc:title "CCC360 f. 81 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/81V> dc:title "CCC360 f. 81 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/82R> dc:title "CCC360 f. 82 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/82V> dc:title "CCC360 f. 82 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/83R> dc:title "CCC360 f. 83 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/83V> dc:title "CCC360 f. 83 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/84R> dc:title "CCC360 f. 84 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/84V> dc:title "CCC360 f. 84 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/85R> dc:title "CCC360 f. 85 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/85V> dc:title "CCC360 f. 85 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/86R> dc:title "CCC360 f. 86 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/86V> dc:title "CCC360 f. 86 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/87R> dc:title "CCC360 f. 87 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/87V> dc:title "CCC360 f. 87 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/88R> dc:title "CCC360 f. 88 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/88V> dc:title "CCC360 f. 88 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/89R> dc:title "CCC360 f. 89 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/89V> dc:title "CCC360 f. 89 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/8R> dc:title "CCC360 f. 8 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/8V> dc:title "CCC360 f. 8 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/90R> dc:title "CCC360 f. 90 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/90V> dc:title "CCC360 f. 90 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/91R> dc:title "CCC360 f. 91 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/91V> dc:title "CCC360 f. 91 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/92R> dc:title "CCC360 f. 92 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/92V> dc:title "CCC360 f. 92 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/93R> dc:title "CCC360 f. 93 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/93V> dc:title "CCC360 f. 93 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/94R> dc:title "CCC360 f. 94 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/94V> dc:title "CCC360 f. 94 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/95R> dc:title "CCC360 f. 95 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/95V> dc:title "CCC360 f. 95 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/96R> dc:title "CCC360 f. 96 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/96V> dc:title "CCC360 f. 96 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/97R> dc:title "CCC360 f. 97 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/97V> dc:title "CCC360 f. 97 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/98R> dc:title "CCC360 f. 98 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/98V> dc:title "CCC360 f. 98 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/99R> dc:title "CCC360 f. 99 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/99V> dc:title "CCC360 f. 99 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/9R> dc:title "CCC360 f. 9 R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/9V> dc:title "CCC360 f. 9 V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/bib> dc:title "CCC360 Back inside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/bob> dc:title "CCC360 Back outside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/coverblank> dc:title "CCC360 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC360/fib> dc:title "CCC360 Front inside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/fob> dc:title "CCC360 Front outside binding";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iR> dc:title "CCC360 f. i R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iV> dc:title "CCC360 f. i V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iiR> dc:title "CCC360 f. ii R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iiV> dc:title "CCC360 f. ii V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iiiR> dc:title "CCC360 f. iii R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/iiiV> dc:title "CCC360 f. iii V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/ivR> dc:title "CCC360 f. iV R";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC360/ivV> dc:title "CCC360 f. iV V";
+   a dms:canvas;
+   exif:height "7228";
+   exif:width "5428" .

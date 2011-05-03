@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC215/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC215/fob> <http://dmss.stanford.edu/dmstech/CCC215/bob> <http://dmss.stanford.edu/dmstech/CCC215/spn> <http://dmss.stanford.edu/dmstech/CCC215/sfe> <http://dmss.stanford.edu/dmstech/CCC215/bfe> <http://dmss.stanford.edu/dmstech/CCC215/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC215/bfe>,
+   <http://dmss.stanford.edu/dmstech/CCC215/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC215/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC215/fob>,
+   <http://dmss.stanford.edu/dmstech/CCC215/sfe>,
+   <http://dmss.stanford.edu/dmstech/CCC215/spn>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC215/bfe> dc:title "CCC215 Bottom edge";
+   a dms:canvas;
+   exif:height "8000";
+   exif:width "9700" .
+<http://dmss.stanford.edu/dmstech/CCC215/bob> dc:title "CCC215 Back outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC215/coverblank> dc:title "CCC215 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC215/fob> dc:title "CCC215 Front outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC215/sfe> dc:title "CCC215 Foredge";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .
+<http://dmss.stanford.edu/dmstech/CCC215/spn> dc:title "CCC215 Spine";
+   a dms:canvas;
+   exif:height "9700";
+   exif:width "8000" .

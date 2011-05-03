@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dmstech.groups.stanford.edu/ccc001/manifest/NormalSequence>    rdf:first <http://dmss.stanford.edu/dmstech/CCC523/coverblank>;
+   rdf:rest ( <http://dmss.stanford.edu/dmstech/CCC523/fob> <http://dmss.stanford.edu/dmstech/CCC523/bob> <http://dmss.stanford.edu/dmstech/CCC523/coverblank> ) ;
+   ore:aggregates <http://dmss.stanford.edu/dmstech/CCC523/bob>,
+   <http://dmss.stanford.edu/dmstech/CCC523/coverblank>,
+   <http://dmss.stanford.edu/dmstech/CCC523/fob>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://dmss.stanford.edu/dmstech/CCC523/bob> dc:title "CCC523 Back outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC523/coverblank> dc:title "CCC523 coverblank";
+   a dms:canvas;
+   exif:height "0";
+   exif:width "0" .
+<http://dmss.stanford.edu/dmstech/CCC523/fob> dc:title "CCC523 Front outside binding";
+   a dms:canvas;
+   exif:height "7230";
+   exif:width "5428" .

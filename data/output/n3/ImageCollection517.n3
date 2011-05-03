@@ -1,0 +1,49 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix oac: <http://www.openannotation.org/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<Parker/MS_517/JP2_MS_517_NC/517_bob_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "7230";
+   exif:width "5428" .
+<Parker/MS_517/JP2_MS_517_NC/517_fob_NC_46.jp2> dms:imagetype "NC";
+   a dcmitype:Image;
+   exif:height "7230";
+   exif:width "5428" .
+<Parker/MS_517/JP2_MS_517_TC/517_bob_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "5960";
+   exif:width "4803" .
+<Parker/MS_517/JP2_MS_517_TC/517_fob_TC_46.jp2> dms:imagetype "TC";
+   a dcmitype:Image;
+   exif:height "5943";
+   exif:width "4511" .
+<http://dmstech.groups.stanford.edu/CCC517/ImageCollection> rdf:first <http://dmstech.groups.stanford.edu/CCC517/images/1>;
+   rdf:rest ( <http://dmss.groups.stanford.edu/CCC517/images/2> ) ;
+   ore:aggregates <http://dmss.groups.stanford.edu/CCC517/images/1>,
+   <http://dmss.groups.stanford.edu/CCC517/images/2>;
+   a dms:ImageCollection,
+   ore:Aggregation,
+   rdf:List .
+<http://dmss.groups.stanford.edu/CCC517/images/1> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC517/fob.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC517/fob>;
+   a dms:ImageAnnotation .
+<http://dmss.groups.stanford.edu/CCC517/images/2> oac:hasBody <http://dmss.stanford.edu/dmstech/CCC517/bob.imageChoice>;
+   oac:hasTarget <http://dmss.stanford.edu/dmstech/CCC517/bob>;
+   a dms:ImageAnnotation .
+<http://dmss.stanford.edu/dmstech/CCC517/bob> dc:title "Back outside binding";
+   a dms:Canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC517/bob.imageChoice> dms:ImageChoice "Parker/MS_517/JP2_MS_517_NC/517_bob_NC_46.jp2",
+   "Parker/MS_517/JP2_MS_517_TC/517_bob_TC_46.jp2" .
+<http://dmss.stanford.edu/dmstech/CCC517/fob> dc:title "Front outside binding";
+   a dms:Canvas;
+   exif:height "7230";
+   exif:width "5428" .
+<http://dmss.stanford.edu/dmstech/CCC517/fob.imageChoice> dms:ImageChoice "Parker/MS_517/JP2_MS_517_NC/517_fob_NC_46.jp2",
+   "Parker/MS_517/JP2_MS_517_TC/517_fob_TC_46.jp2" .
