@@ -45,6 +45,7 @@ __NB:__ The script is set to transform the files in test_data by default.
 * [rdf 0.3.1](https://github.com/bendiken/rdf "rdf 0.3.1")
 * [rdf::n3 0.3.1.1](https://github.com/gkellogg/rdf-n3 "rdf::n3 0.3.1.1")
 * [nokogiri 1.4.4](http://nokogiri.org "nokogiri 1.4.4")
+* sinatra 1.2.6
 
 ## Known Issues / Bugs
 * RDF::List support is "experimental" - lists handled manually - euggh
