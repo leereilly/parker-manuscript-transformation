@@ -161,6 +161,7 @@ module DMS
               })
                  
               # IMAGE CHOICE
+                            
               writer << RDF::Statement.new({
                 :subject   => RDF::URI("http://dmss.stanford.edu/dmstech/CCC#{@manuscript.name}/#{page.number}.imageChoice"),
                 :predicate => RDF::Resource("#{writer.prefixes[:dms]}ImageChoice"),
