@@ -79,7 +79,7 @@ module DMS
         page_hash['levels'] = LEVELS
         page.images.each do |image|
           if image.type == 'TC'
-            page_hash['identifier'] = image.jp2Path
+            page_hash['identifier'] = image.path
             page_hash['width'] = image.width
             page_hash['height'] = image.height  
             page_hash['title'] = page.label  
