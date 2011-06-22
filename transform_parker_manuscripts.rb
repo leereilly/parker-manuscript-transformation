@@ -8,7 +8,7 @@ OUTPUT_DIRECTORY  = "#{DATA_DIRECTORY}/output/n3"
 
 puts "Examining #{INPUT_DIRECTORY} for Parker XML configuration files\n"
 
-Dir.glob("#{INPUT_DIRECTORY}/3*.xml") { |file|
+Dir.glob("#{INPUT_DIRECTORY}/4*.xml") { |file|
   puts "Processing #{file}" if DMS::debug  
   manuscript = DMS::Manuscript.new(file)
   puts "\nTransforming manuscript #{manuscript.name}"    

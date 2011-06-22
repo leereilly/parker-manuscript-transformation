@@ -1,0 +1,26 @@
+<%= erb :header %>
+<h1>Simple Shared Canvas Services</h1>
+<h2>API Examples</h2>
+
+<ul>
+  <li><a href="/manuscript">/manuscript</a> - Returns the IDs of all available manuscripts</li>
+  <li><a href="/manuscript/1">/manuscript/1</a> - Returns the JSON representation of manuscript 1 (JSON feed views a FlipBook Application - see item 1 in the small print)</li>  
+  <li><a href="/manuscript/1/manifest.n3">/manuscript/1/manifest.n3</a> - manifest in N3 format</li>
+  <li><a href="/manuscript/1/normal_sequence.n3">/manuscript/1/normal_sequence.n3</a> - normal sequence file in N3 format</li>
+  <li><a href="/manuscript/1/image_collection.n3">/manuscript/1/image_collection.n3</a> - image collection file in N3 format</li>
+</ul>
+
+<h2>Notes</h2>
+
+<ul>
+  <li>The JSON output isn't easily human readable; please use a service like <a href="http://jsonlint.com">JSON Lint</a> to "pretty it up"</li>
+</ul>
+
+<h3>Small Print</h3>
+<ul>
+  <li>This is a proof of concept only; API meets a single users' needs</li>
+  <li>This is one Sinatra instance... no load balancers / server farms</li>
+  <li>All XML representations of manuscripts files are static; JSON/N3 output is all generated dynamically</li>
+</ul>
+
+<%= erb :footer %>

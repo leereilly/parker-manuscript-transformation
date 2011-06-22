@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Simple Shared Canvas Services</title>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+    <style type="text/css">
+      body { background-color: #7f7f7f; margin: 0;  line-height: 1.8; padding: 0; }
+      #top-border { background-color: #6d0e00; width: 100%; height: 10px; }
+      #content-latest { background-color: #eee; width: auto; overflow: auto; padding: 20px 0 20px 100px; color: #666; border-top: 1px solid #500b02; }
+      #content-old { background-color: #7f7f7f; width: auto; overflow: auto; padding: 20px 0 20px 100px; border-top: 1px solid #555; color: #ddd; }
+      #content-latest a:link, #content-old a:visited, #content-old a:active { color: #000; text-decoration: none; outline: none; font-weight: bold; } 
+      #content-latest a:hover { text-decoration: underline; } 
+      #content-old a:link, #content-old a:visited, #content-old a:active { color: #fff; text-decoration: none; outline: none; font-weight: bold; } 
+      #content-old a:hover { text-decoration: underline; } 
+      .mainText { font-family: 'lucida grande', tahoma, verdana; font-size:11px; color:#ddd; line-height:1.6; }
+      .bold { font-weight: bold; }
+      .last-li { padding-bottom: 6px; }
+      .hdr { font-weight: bold; letter-spacing: 3px; font-size: 15px; text-transform: uppercase; color: #444; } 
+      .gray { color: #888; }
+      .icon-box { background-color: #fff; border: 1px solid #ccc; margin-top: 10px; padding: 20px; } 
+      li { padding: 0 0 0 12px; margin: 0; }
+    </style>
+  </head>
+  <body class="mainText">
+    <div id="top-border"></div>
+    <div id="content-latest">
